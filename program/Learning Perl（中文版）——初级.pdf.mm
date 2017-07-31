@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1497582784379" ID="ID_1266229278" MODIFIED="1499174349598" STYLE="bubble" TEXT="Learning Perl&#xff08;&#x4e2d;&#x6587;&#x7248;&#xff09;&#x2014;&#x2014;&#x521d;&#x7ea7;.pdf">
-<node CREATED="1497582838530" FOLDED="true" ID="ID_1343828947" MODIFIED="1498810919508" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0; &#x7b80;&#x4ecb;">
+<node CREATED="1497582838530" ID="ID_1343828947" MODIFIED="1499763020831" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0; &#x7b80;&#x4ecb;">
 <node CREATED="1497582851641" ID="ID_620381557" MODIFIED="1497678706793" TEXT="&#x95ee;&#x9898;&#x4e0e;&#x7b54;&#x6848;">
 <node CREATED="1497582858299" ID="ID_874007899" MODIFIED="1497678706793" TEXT="&#x8fd9;&#x672c;&#x4e66;&#x9002;&#x5408;&#x4f60;&#x5417;?">
 <node CREATED="1497673394541" ID="ID_249318714" MODIFIED="1497673441521" TEXT="&lt;&lt;Learn Perl student workbook&gt;&gt; &#x5b83;&#x9488;&#x5bf9;&#x6bcf;&#x4e2a;&#x7ae0;&#x8282;&#x90fd;&#x8865;&#x5145;&#x4e86;&#x8bb8;&#x591a;&#x4e60;&#x9898;"/>
@@ -71,7 +71,7 @@
 <node CREATED="1497583104829" ID="ID_1298877067" MODIFIED="1497678733810" TEXT="&#x8d70;&#x9a6c;&#x89c2;&#x82b1;"/>
 <node CREATED="1497583116385" ID="ID_1157958506" MODIFIED="1497678733810" TEXT="&#x4e60;&#x9898;"/>
 </node>
-<node CREATED="1497583120542" FOLDED="true" ID="ID_1877990030" MODIFIED="1499174368776" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0; &#x6807;&#x91cf;&#x6570;&#x636e;">
+<node CREATED="1497583120542" ID="ID_1877990030" MODIFIED="1500172719965" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0; &#x6807;&#x91cf;&#x6570;&#x636e;">
 <node CREATED="1497583136799" ID="ID_1590661704" MODIFIED="1497683372156" TEXT="&#x6570;&#x5b57;">
 <node CREATED="1497583156031" ID="ID_646679980" MODIFIED="1497683372156" TEXT="&#x6240;&#x6709;&#x6570;&#x5b57;&#x7684;&#x5185;&#x90e8;&#x683c;&#x5f0f;&#x90fd;&#x76f8;&#x540c;">
 <node CREATED="1497678755542" ID="ID_1501748929" MODIFIED="1497678764823" TEXT="Perl &#x7528;&#x6807;&#x91cf;&#x6765;&#x79f0;&#x547c;&#x5355;&#x4e2a;&#x4e8b;&#x52a1;"/>
@@ -165,7 +165,7 @@
 <node CREATED="1497682089575" ID="ID_1766913868" MODIFIED="1497682162708" TEXT="&#x5982;&#x679c;&#x662f;&#x6570;&#x5b57;, 0 &#x4ee3;&#x8868;&#x5047;, &#x5176;&#x4ed6;&#x6570;&#x5b57;&#x4ee3;&#x8868;&#x771f;&#xa;&#x5982;&#x679c;&#x662f;&#x5b57;&#x7b26;&#x4e32;, &#x7a7a;&#x5b57;&#x7b26;&#x4e32;(&apos;&apos;) &#x4e3a;&#x5047;, &#x5176;&#x4ed6;&#x4e3a;&#x771f;&#xa;&#x5982;&#x679c;&#x5373;&#x4e0d;&#x662f;&#x6570;&#x5b57;,&#x4e5f;&#x4e0d;&#x662f;&#x5b57;&#x7b26;&#x4e32;, &#x5c31;&#x5148;&#x5c31;&#x8f6c;&#x6362;&#x4e3a;&#x6570;&#x5b57;&#x6216;&#x5b57;&#x7b26;&#x4e32;&#x518d;&#x8fdb;&#x884c;&#x5224;&#x65ad;"/>
 <node CREATED="1497682189726" ID="ID_781678689" MODIFIED="1497682226041" TEXT="&apos;0&apos; &#x662f;&#x552f;&#x4e00;&#x4f1a;&#x88ab;&#x5f53;&#x4f5c;&#x5047;&#x7684;&#x975e;&#x7a7a;&#x5b57;&#x7b26;&#x4e32;"/>
 <node CREATED="1497682234291" ID="ID_1771709852" MODIFIED="1497682253316" TEXT="$a == true; ! $a == false;"/>
-<node CREATED="1497682303847" ID="ID_109928137" MODIFIED="1497682326532" TEXT="$still_true = !! &apos;fred&apos;;&#xa;$still_false = !! &apos;0&apos;;"/>
+<node CREATED="1497682303847" ID="ID_109928137" MODIFIED="1500172738486" TEXT="$still_true = !! &apos;fred&apos;;&#x9;# &#x8f6c;&#x4e3a;&#x5bf9;&#x5e94;&#x7684; bool &#x578b;&#xa;$still_false = !! &apos;0&apos;;"/>
 </node>
 </node>
 <node CREATED="1497583459801" ID="ID_583714402" MODIFIED="1497683349334" TEXT="&#x83b7;&#x53d6;&#x7528;&#x6237;&#x8f93;&#x5165;">
@@ -190,7 +190,7 @@
 </node>
 <node CREATED="1497583488977" ID="ID_1343892273" MODIFIED="1497683341412" TEXT="&#x4e60;&#x9898;"/>
 </node>
-<node CREATED="1497583502784" FOLDED="true" ID="ID_1833911131" MODIFIED="1498115466501" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0; &#x5217;&#x8868;&#x4e0e;&#x6570;&#x7ec4;">
+<node CREATED="1497583502784" ID="ID_1833911131" MODIFIED="1500172686563" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0; &#x5217;&#x8868;&#x4e0e;&#x6570;&#x7ec4;">
 <node CREATED="1497683392304" ID="ID_561767000" MODIFIED="1497683404490" TEXT="&#x5728; Perl &#x91cc;&#x4ee3;&#x8868;&#x5f97;&#x6570;&#x7684;&#x5c31;&#x662f;&#x5217;&#x8868;&#x548c;&#x6570;&#x7ec4;"/>
 <node CREATED="1497683423910" ID="ID_1576415790" MODIFIED="1497683451455" TEXT="&#x5217;&#x8868;&#x6307;&#x7684;&#x662f;&#x53d8;&#x91cf;&#x7684;&#x6709;&#x5e8f;&#x96c6;&#x5408;&#xff0c; &#x800c;&#x6570;&#x7ec4;&#x662f;&#x6307;&#x5b58;&#x50a8;&#x5217;&#x8868;&#x7684;&#x53d8;&#x91cf;."/>
 <node CREATED="1497683493899" ID="ID_1476068508" MODIFIED="1497683517456" TEXT="&#x5217;&#x8868;&#x6216;&#x6570;&#x7ec4;&#x53ef;&#x4ee5;&#x5305;&#x542b; &#x5b57;&#x7b26;&#x4e32; undef &#x7b49;&#x4e0d;&#x540c;&#x7c7b;&#x578b;&#x7684;&#x6df7;&#x5408;"/>
@@ -202,7 +202,7 @@
 </node>
 <node CREATED="1497583516156" ID="ID_1307390765" MODIFIED="1497686827903" TEXT="&#x7279;&#x6b8a;&#x7684;&#x6570;&#x7ec4;&#x7d22;&#x5f15;">
 <node CREATED="1497683846911" ID="ID_261768905" MODIFIED="1497683891462" TEXT="&#x5982;&#x679c;&#x5bf9;&#x8d85;&#x8fc7;&#x5c3e;&#x7aef;&#x7684;&#x5143;&#x7d20;&#x8fdb;&#x884c;&#x8d4b;&#x503c;, &#x6570;&#x7ec4;&#x4f1a;&#x81ea;&#x52a8;&#x6269;&#x5927;, &#x4e14;&#x4e2d;&#x95f4;&#x672a;&#x5b9a;&#x4e49;&#x7684;&#x5143;&#x7d20;&#x4f1a;&#x8d4b;&#x503c;&#x4e3a; undef"/>
-<node CREATED="1497683909075" ID="ID_1625439946" MODIFIED="1497684030093" TEXT="$fred[99] = abc;&#xa;$end = $#fred; #end = 99&#xa;$fred[-1]; #&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x5143;&#x7d20;, &#x4f46;&#x53cd;&#x5411;&#x5982;&#x679c;&#x8d85;&#x51fa;&#x6570;&#x7ec4;&#x8303;&#x56f4;&#x65f6;, &#x5c31;&#x4f1a;&#x62a5;&#x9519;.&#xa;"/>
+<node CREATED="1497683909075" ID="ID_1625439946" MODIFIED="1500172708963" TEXT="$fred[99] = abc;&#xa;$end = $#fred; #$end = 99, &#x8fd4;&#x56de;&#x7684;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x4e0b;&#x6807;&#xa;$fred[-1]; #&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x5143;&#x7d20;, &#x4f46;&#x53cd;&#x5411;&#x5982;&#x679c;&#x8d85;&#x51fa;&#x6570;&#x7ec4;&#x8303;&#x56f4;&#x65f6;, &#x5c31;&#x4f1a;&#x62a5;&#x9519;.&#xa;"/>
 </node>
 <node CREATED="1497583523056" ID="ID_968816988" MODIFIED="1497686827903" TEXT="&#x5217;&#x8868;&#x76f4;&#x63a5;&#x91cf;">
 <node CREATED="1497583527445" ID="ID_1105576853" MODIFIED="1497686827902" TEXT="qw &#x7b80;&#x5199;">
@@ -279,14 +279,14 @@
 </node>
 <node CREATED="1497583676416" ID="ID_1777474811" MODIFIED="1497693510571" TEXT="&#x4e60;&#x9898;"/>
 </node>
-<node CREATED="1497583685286" FOLDED="true" ID="ID_1736408628" MODIFIED="1497926905881" POSITION="right" TEXT="&#x7b2c;&#x56db;&#x7ae0; &#x5b50;&#x7a0b;&#x5e8f;">
+<node CREATED="1497583685286" ID="ID_1736408628" MODIFIED="1501061378314" POSITION="right" TEXT="&#x7b2c;&#x56db;&#x7ae0; &#x5b50;&#x7a0b;&#x5e8f;">
 <node CREATED="1497693562659" ID="ID_1035803689" MODIFIED="1497693562659" TEXT="">
 <node CREATED="1497693563626" ID="ID_729213057" MODIFIED="1497693575581" TEXT="&#x5b50;&#x7a0b;&#x5e8f;&#x540d;&#x4e5f;&#x6709;&#x72ec;&#x7acb;&#x7684;&#x547d;&#x540d;&#x7a7a;&#x95f4;"/>
 <node CREATED="1497695539741" ID="ID_701942046" MODIFIED="1497695553249" TEXT="&#x53d8;&#x91cf;&#x9ed8;&#x8ba4;&#x662f;&#x5168;&#x5c40;&#x7684;, &#x5373;&#x4f7f;&#x5728;&#x5b50;&#x7a0b;&#x5e8f;&#x4e2d;&#x5b9a;&#x4e49;&#x7684;"/>
 </node>
 <node CREATED="1497583693117" ID="ID_1520568901" MODIFIED="1497695964522" TEXT="&#x5b9a;&#x4e49;&#x5b50;&#x7a0b;&#x5e8f;">
 <node CREATED="1497693665278" ID="ID_123993859" MODIFIED="1497693833946" TEXT="sub &lt;funcname&gt; {&#xa;}&#xa;&amp;&lt;funcanme&gt; #&#x8c03;&#x7528;&#x5b50;&#x7a0b;&#x5e8f;"/>
-<node CREATED="1497693749261" ID="ID_983194746" MODIFIED="1497693776991" TEXT="&#x5b50;&#x7a0b;&#x5e8f;&#x5b9a;&#x4e49;&#x662f;&#x5168;&#x5c40;&#x7684;, &#x5982;&#x679c;&#x6709;&#x91cd;&#x590d;&#x5b9a;&#x4e49;, &#x540e;&#x9762;&#x7684;&#x4f1a;&#x8986;&#x76d6;&#x524d;&#x9762;&#x7684;, &#x8fd0;&#x884c;&#x5730;&#x4f1a;&#x7ed9;&#x51fa;&#x8b66;&#x544a;."/>
+<node CREATED="1497693749261" ID="ID_983194746" MODIFIED="1501061403052" TEXT="&#x5b50;&#x7a0b;&#x5e8f;&#x5b9a;&#x4e49;&#x662f;&#x5168;&#x5c40;&#x7684;, &#x5982;&#x679c;&#x6709;&#x91cd;&#x590d;&#x5b9a;&#x4e49;, &#x540e;&#x9762;&#x7684;&#x4f1a;&#x8986;&#x76d6;&#x524d;&#x9762;&#x7684;, &#x8fd0;&#x884c;&#x65f6;&#x4f1a;&#x7ed9;&#x51fa;&#x8b66;&#x544a;."/>
 </node>
 <node CREATED="1497583699833" ID="ID_920594314" MODIFIED="1497695964522" TEXT="&#x8c03;&#x7528;&#x5b50;&#x7a0b;&#x5e8f;"/>
 <node CREATED="1497583702839" ID="ID_301741184" MODIFIED="1497695964521" TEXT="&#x8fd4;&#x56de;&#x503c;">
@@ -470,7 +470,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1497593895452" FOLDED="true" ID="ID_264927709" MODIFIED="1497926905881" POSITION="right" TEXT="&#x7b2c;&#x4e03;&#x7ae0; &#x6f2b;&#x6e38;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x738b;&#x56fd;">
+<node CREATED="1497593895452" ID="ID_264927709" MODIFIED="1500014691978" POSITION="right" TEXT="&#x7b2c;&#x4e03;&#x7ae0; &#x6f2b;&#x6e38;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x738b;&#x56fd;">
 <node CREATED="1497593912427" ID="ID_1020766739" MODIFIED="1497795403236" TEXT="&#x4ec0;&#x4e48;&#x662f;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;"/>
 <node CREATED="1497593920244" ID="ID_107211840" MODIFIED="1497795403236" TEXT="&#x4f7f;&#x7528;&#x7b80;&#x5355;&#x6a21;&#x5f0f;">
 <node CREATED="1497793622720" ID="ID_1628626593" MODIFIED="1497793622720" TEXT="">
@@ -507,7 +507,7 @@
 </node>
 <node CREATED="1497594003119" ID="ID_1828148925" MODIFIED="1498811094998" POSITION="right" TEXT="&#x7b2c;&#x516b;&#x7ae0; &#x7528;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x8fdb;&#x884c;&#x5339;&#x914d;">
 <node CREATED="1497594023215" ID="ID_891800632" MODIFIED="1497797073031" TEXT="&#x7528; m// &#x8fdb;&#x884c;&#x5339;&#x914d;">
-<node CREATED="1497795527067" ID="ID_1607986402" MODIFIED="1497795595637" TEXT="&#x5176;&#x4e2d;/ &#x4e5f;&#x53ef;&#x4ee5;&#x6362;&#x4e3a; () {} [] ## &#x7b49;&#x7b26;&#x53f7; , &#x5982;&#x540c; qw &#x4e00;&#x6837;, &#x4f46;&#x5982;&#x4f55;&#x4f7f;&#x7528; // &#x5c31;&#x53ef;&#x4ee5;&#x6d3b;&#x529b;&#x6389; m"/>
+<node CREATED="1497795527067" ID="ID_1607986402" MODIFIED="1500174873952" TEXT="&#x5176;&#x4e2d;/ &#x4e5f;&#x53ef;&#x4ee5;&#x6362;&#x4e3a; () {} [] ## &#x7b49;&#x7b26;&#x53f7; , &#x5982;&#x540c; qw &#x4e00;&#x6837;, &#x4f46;&#x5982;&#x679c;&#x4f7f;&#x7528; // &#x5c31;&#x53ef;&#x4ee5;&#x7701;&#x7565;&#x6389; m"/>
 </node>
 <node CREATED="1497594031440" ID="ID_1047448943" MODIFIED="1497797073031" TEXT="&#x6a21;&#x5f0f;&#x5339;&#x914d;&#x4fee;&#x9970;&#x7b26;">
 <node CREATED="1497594044972" ID="ID_724891524" MODIFIED="1497797073031" TEXT="&#x7528; /i &#x8fdb;&#x884c;&#x5927;&#x5c0f;&#x5199;&#x65e0;&#x5173;&#x7684;&#x5339;&#x914d;"/>
@@ -606,7 +606,7 @@
 </node>
 <node CREATED="1497597609216" ID="ID_1318234893" MODIFIED="1497801852047" TEXT="split &#x64cd;&#x4f5c;&#x7b26;">
 <node CREATED="1497799870476" ID="ID_979882639" MODIFIED="1497799886453" TEXT="my @fields = split /:/, &quot;aa:bb:cc:dd&quot;;"/>
-<node CREATED="1497799908203" ID="ID_306855246" MODIFIED="1497799935118" TEXT="split &#x4f1a;&#x4fdd;&#x7559;&#x5f00;&#x5173;&#x7684;&#x7a7a;&#x5b57;&#x6bb5;, &#x4f46;&#x662f;&#x5374;&#x4f1a;&#x4e22;&#x5f03;&#x5c3e;&#x90e8;&#x7684;&#x7a7a;&#x5b57;&#x6bb5;"/>
+<node CREATED="1497799908203" ID="ID_306855246" MODIFIED="1500175228158" TEXT="split &#x4f1a;&#x4fdd;&#x7559;&#x5f00;&#x5934;&#x7684;&#x7a7a;&#x5b57;&#x6bb5;, &#x4f46;&#x662f;&#x5374;&#x4f1a;&#x4e22;&#x5f03;&#x5c3e;&#x90e8;&#x7684;&#x7a7a;&#x5b57;&#x6bb5;"/>
 <node CREATED="1497799958003" ID="ID_1933772883" MODIFIED="1497800013259" TEXT="my @fields = split;  # &#x7b49;&#x6548;&#x4e8e; split /\s+/, $_; &#x53ea;&#x662f;&#x524d;&#x8005;&#x4f1a;&#x7701;&#x7565;&#x5f00;&#x5173;&#x7684;&#x7a7a;&#x5b57;&#x6bb5;"/>
 <node CREATED="1497800061569" ID="ID_662407512" MODIFIED="1497800088683" TEXT="&#x5982;&#x679c;&#x5728;&#x6a21;&#x5f0f;&#x4e2d;&#x4f7f;&#x7528;&#x4e86;&#x6355;&#x83b7;&#x5706;&#x62ec;&#x53f7;, &#x4f1a;&#x542f;&#x7528; &#x5206;&#x9694;&#x7b26;&#x4fdd;&#x7559;&#x6a21;&#x5f0f;, &#x53c2;&#x8003; perlfunc"/>
 </node>
@@ -637,7 +637,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1497598345857" FOLDED="true" ID="ID_1539738355" MODIFIED="1497926905881" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x7ae0; &#x5176;&#x4ed6;&#x63a7;&#x5236;&#x7ed3;&#x6784;">
+<node CREATED="1497598345857" ID="ID_1539738355" MODIFIED="1501061689015" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x7ae0; &#x5176;&#x4ed6;&#x63a7;&#x5236;&#x7ed3;&#x6784;">
 <node CREATED="1497598359215" ID="ID_1248609949" MODIFIED="1497804122437" TEXT="unless &#x63a7;&#x5236;&#x7ed3;&#x6784;">
 <node CREATED="1497801871848" ID="ID_260136031" MODIFIED="1497801881861" TEXT="unless () {} &#x540c; if &#x76f8;&#x53cd;"/>
 <node CREATED="1497617311437" ID="ID_432764820" MODIFIED="1497804122437" TEXT="&#x4f34;&#x968f; unless &#x7684; else &#x5b50;&#x53e5;">
@@ -711,7 +711,6 @@
 <node CREATED="1497617513660" ID="ID_201262004" MODIFIED="1497883661110" TEXT="&#x5bfb;&#x627e;&#x6a21;&#x5757;">
 <node CREATED="1497804225508" ID="ID_1564238303" MODIFIED="1497804244744" TEXT="&#x4e00;&#x79cd;&#x968f; perl &#x6253;&#x5305;&#x7684;, &#x53e6;&#x4e00;&#x79cd;&#x662f; CPAN &#x4e0b;&#x8f7d;&#x7684;"/>
 <node CREATED="1497877454524" ID="ID_1397509944" MODIFIED="1497877491054" TEXT="&#x53ef;&#x4ee5;&#x4ece; http://search.cpan.org &#x4e0a;&#x5bfb;&#x627e;&#x6ca1;&#x6709;&#x540c; Perl &#x4e00;&#x8d77;&#x53d1;&#x5e03;&#x7684;&#x6a21;&#x5757;"/>
-<node CREATED="1497877655602" ID="ID_1382618886" MODIFIED="1497877665422" TEXT="&#x67e5;&#x770b; CGI.pm, perldoc CGI"/>
 <node CREATED="1497877690118" ID="ID_351396924" MODIFIED="1497877698841" TEXT="cpan -a #&#x67e5;&#x770b;&#x6240;&#x6709;&#x5df2;&#x5b89;&#x88c5;&#x7684;&#x6a21;&#x5757;"/>
 </node>
 <node CREATED="1497617516544" ID="ID_981667146" MODIFIED="1497883661110" TEXT="&#x5b89;&#x88c5;&#x6a21;&#x5757;">
@@ -720,6 +719,7 @@
 <node CREATED="1497877976899" ID="ID_1837068314" MODIFIED="1497878032940" TEXT="&#x5982;&#x679c;&#x4f7f;&#x7528;&#x7684;&#x662f;&#x53e6;&#x4e00;&#x4e2a;&#x8f85;&#x52a9;&#x6a21;&#x5757; Module::Build &#x6765;&#x7f16;&#x8bd1;&#x5b89;&#x88c5;&#xa;1. perl Build.PL --install_base=/usr/fred/lib&#xa;2. ./Build install"/>
 <node CREATED="1497878456524" ID="ID_480798681" MODIFIED="1497878676850" TEXT="perl -MCPAN -e shell # &#x542f;&#x52a8; perl &#x81ea;&#x5df1;&#x7684; shell&#xa;&#x66f4;&#x597d;&#x7684;&#x65b9;&#x6cd5;&#x662f;&#x901a;&#x8fc7;&#x5982;&#x4e0b;&#x7684;&#x811a;&#x672c;&#x6765;&#x5b89;&#x88c5;&#xa;cpan Module::CoreList &#x6a21;&#x5757;2&#xa;&#x53e6;&#x5916;&#x4e00;&#x4e2a;&#x975e;&#x81ea;&#x5e26;&#x7684;&#x5de5;&#x5177; cpanm, &#x96f6;&#x914d;&#x7f6e;, &#x8f7b;&#x91cf;&#x7ea7;&#x7684; CPAN &#x5ba2;&#x6237;&#x7aef;, &#x53ef;&#x4ee5;&#x4ece;http://xrl.us/cpanm &#x4e0b;&#x8f7d;"/>
 <node CREATED="1497878717970" ID="ID_1088018766" MODIFIED="1497878750589" TEXT="&#x53ef;&#x4ee5;&#x7528; minicpan &#x4e0b;&#x8f7d;&#x6240;&#x6709;&#x6a21;&#x5757;&#x7684;&#x6700;&#x65b0;&#x5305;, 500M, &#x53c2;&#x8003; CPAN::Mini"/>
+<node CREATED="1497877655602" ID="ID_1382618886" MODIFIED="1497877665422" TEXT="&#x67e5;&#x770b; CGI.pm, perldoc CGI"/>
 <node CREATED="1497878880425" ID="ID_1904407895" MODIFIED="1497879135495" TEXT="$ perl -Mlocal::lib &#xa;# &#x5217;&#x51fa;&#x5b83;&#x6240;&#x6539;&#x52a8;&#x7684;&#x6240;&#x6709;&#x73af;&#x5883;&#x53d8;&#x91cf;&#x8bbe;&#x5b9a;&#xa;$ cpan -I &#x6a21;&#x5757;1 &#xa;# -I  &#x4f1a;&#x4f7f;&#x6309;&#x4e0a;&#x9762;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;&#x8fdb;&#x884c;&#x5b89;&#x88c5;&#xff0c;cpanm &#x5982;&#x679c;&#x6709;&#x8bbe;&#x7f6e;&#x8fc7;&#x4e0a;&#x9762;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;, &#x4e0d;&#x9700;&#x8981; -I &#x4e5f;&#x662f;&#x4f9d;&#x7167;&#x90a3;&#x4e9b;&#x73af;&#x5883;&#x53d8;&#x91cf;&#x8fdb;&#x884c;&#x5b89;&#x88c5;&#x7684;&#xa;cpanm &#x4f1a;&#x5148;&#x68c0;&#x67e5;&#x5bf9;&#x9ed8;&#x8ba4;&#x7684;&#x5b89;&#x88c5;&#x76ee;&#x5f55;&#x662f;&#x5426;&#x62e5;&#x6709;&#x6743;&#x9650;, &#x5982;&#x679c;&#x6ca1;&#x6709;, &#x5c31;&#x4f1a;&#x81ea;&#x52a8;&#x52a0;&#x8f7d; local::lib &#x6a21;&#x5757;&#xa;cpan --local-lib &#x6a21;&#x5757;&#x540d; #&#x5f3a;&#x5236;&#x4f7f;&#x7528;&#x672c;&#x5730;&#x914d;&#x7f6e;&#xa;# &#x53ef;&#x4ee5;&#x5728; CPAN.pm &#x4e2d;&#x4e3a;&#x81ea;&#x52a8;&#x5b89;&#x88c5;&#x7684;&#x6a21;&#x5757;&#x8bbe;&#x7f6e;&#x6307;&#x5b9a;&#x76ee;&#x5f55;, &#x4e00;&#x4e2a;&#x7ed9; ExtUtils::Makemaker, &#x53e6;&#x4e00;&#x4e2a;&#x7ed9; Module::Build &#x7528;"/>
 <node CREATED="1497879325084" ID="ID_580759988" MODIFIED="1497879347950" TEXT="$cpan&#xa;cpan&gt; o conf..&#xa;cpan&gt; o config commit"/>
 <node CREATED="1497879373484" ID="ID_1868125344" MODIFIED="1497879394521" TEXT="use lib qw(/usr/lib/perl);  #&#x5f15;&#x7528;&#x975e;&#x9ed8;&#x8ba4;&#x4f4d;&#x7f6e; &#x5e93;"/>
@@ -795,7 +795,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1497617694296" FOLDED="true" ID="ID_528464022" MODIFIED="1498115472637" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x4e09;&#x7ae0; &#x76ee;&#x5f55;&#x64cd;&#x4f5c;">
+<node CREATED="1497617694296" ID="ID_528464022" MODIFIED="1500014354274" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x4e09;&#x7ae0; &#x76ee;&#x5f55;&#x64cd;&#x4f5c;">
 <node CREATED="1497617703676" ID="ID_1017608953" MODIFIED="1497888652061" TEXT="&#x5728;&#x76ee;&#x5f55;&#x6811;&#x4e2d;&#x79fb;&#x52a8;">
 <node CREATED="1497887231158" ID="ID_1743086499" MODIFIED="1497887234498" TEXT="chdir = cd"/>
 </node>
@@ -912,7 +912,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1497617981091" FOLDED="true" ID="ID_513057330" MODIFIED="1497946832022" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x516d;&#x7ae0; &#x8fdb;&#x7a0b;&#x7ba1;&#x7406;">
+<node CREATED="1497617981091" ID="ID_513057330" MODIFIED="1501136176809" POSITION="right" TEXT="&#x7b2c;&#x5341;&#x516d;&#x7ae0; &#x8fdb;&#x7a0b;&#x7ba1;&#x7406;">
 <node CREATED="1497617989265" ID="ID_1083538205" MODIFIED="1497946824389" TEXT="system &#x51fd;&#x6570;">
 <node CREATED="1497937801596" ID="ID_682946954" MODIFIED="1497937976158" TEXT="system &apos;date&apos;;  # &#x5728;&#x5f15;&#x7528;&#x7cfb;&#x7edf;&#x73af;&#x5883;&#x53d8;&#x91cf;&#x65f6;, &#x9700;&#x8981;&#x5c06;&#x53d8;&#x91cf;&#x653e;&#x5728; &apos;&apos; &#x5185;, &#x5728;&quot;&quot;&#x4e2d;&#x4f1a;&#x5bfc;&#x81f4;&#x53d8;&#x91cf;&#x5185;&#x63d2;, &#x5728;&quot;&quot;&#x4e2d;&#x9700;&#x8981;\$ &#x624d;&#x80fd;&#x907f;&#x514d;"/>
 <node CREATED="1497617995986" ID="ID_1044572311" MODIFIED="1497946824389" TEXT="&#x907f;&#x514d;&#x4f7f;&#x7528; shell">

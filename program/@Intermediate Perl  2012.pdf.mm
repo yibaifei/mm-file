@@ -4,7 +4,7 @@
 <icon BUILTIN="closed"/>
 <node CREATED="1499322268281" ID="ID_744078452" MODIFIED="1499330973170" POSITION="right" TEXT="Foreword"/>
 <node CREATED="1499322280732" ID="ID_61300269" MODIFIED="1499330973170" POSITION="right" TEXT="Preface"/>
-<node CREATED="1499322328453" FOLDED="true" ID="ID_1579222545" MODIFIED="1499330975305" POSITION="right" TEXT="1. Introductioin">
+<node CREATED="1499322328453" FOLDED="true" ID="ID_1579222545" MODIFIED="1500877925374" POSITION="right" TEXT="1. Introductioin">
 <node CREATED="1499322343386" ID="ID_1995900330" MODIFIED="1499330968660" TEXT="What show you know Already?"/>
 <node CREATED="1499322355489" ID="ID_627716181" MODIFIED="1499330968660" TEXT="strict and warngins"/>
 <node CREATED="1499322365905" ID="ID_905332166" MODIFIED="1499330968660" TEXT="Perl v5.14">
@@ -20,7 +20,7 @@
 <node CREATED="1499322420955" ID="ID_725744168" MODIFIED="1499330968660" TEXT="What if I&apos;m a Perl course instructor ?"/>
 <node CREATED="1499322436810" ID="ID_1919295620" MODIFIED="1499330968660" TEXT="Exercises"/>
 </node>
-<node CREATED="1499322455127" FOLDED="true" ID="ID_447159994" MODIFIED="1499346021933" POSITION="right" TEXT="2. Using Modeules">
+<node CREATED="1499322455127" FOLDED="true" ID="ID_447159994" MODIFIED="1500877928706" POSITION="right" TEXT="2. Using Modeules">
 <node CREATED="1499331178358" ID="ID_1702128368" MODIFIED="1499331179709" TEXT="We can explore CPAN through its master site (http://www.cpan.org/) or one of its search interfaces, CPAN Search (http://search.cpan.org/) and MetaCPAN (https://www.metacpan.org/)."/>
 <node CREATED="1499322463425" ID="ID_408808071" MODIFIED="1499332747315" TEXT="The standard distribution">
 <node CREATED="1499331510157" ID="ID_471413004" MODIFIED="1499331735382" TEXT="Module::CoreList &#x67e5;&#x770b;&#x5f53;&#x524d; Perl &#x7248;&#x672c;&#x4e2d;&#x6240;&#x5305;&#x542b;&#x7684;&#x6a21;&#x5757;"/>
@@ -30,17 +30,17 @@
 </node>
 <node CREATED="1499322486900" ID="ID_958175359" MODIFIED="1499332747315" TEXT="Using Modules">
 <node CREATED="1499332072926" ID="ID_1455306819" MODIFIED="1499332075471" TEXT="We can also use the http://perldoc.perl.org/ website to read the documentation for several versions of Perl, in either HTML or PDF formats."/>
-<node CREATED="1499332100949" ID="ID_1857308103" MODIFIED="1499332102335" TEXT="% perldoc File::Basename"/>
+<node CREATED="1499332100949" ID="ID_1857308103" MODIFIED="1500180468734" TEXT="% perldoc File::Basename &#x67e5;&#x770b;&#x6a21;&#x5757;&#x8bf4;&#x660e;"/>
 </node>
 <node CREATED="1499322501779" ID="ID_1690940041" MODIFIED="1499332747315" TEXT="Functional interfaces">
 <node CREATED="1499322514622" ID="ID_1282787374" MODIFIED="1499332747314" TEXT="select what to import">
-<node CREATED="1499332502287" ID="ID_1079394222" MODIFIED="1499332546003" TEXT="use File::Basename (&apos;fileparse&apos;, &apos;basename&apos;);&#xa;use File::Basename qw( fileparse basename );"/>
+<node CREATED="1499332502287" ID="ID_1079394222" MODIFIED="1500180486997" TEXT="use File::Basename (&apos;fileparse&apos;, &apos;basename&apos;);&#xa;use File::Basename qw( fileparse basename );  # &#x5f15;&#x51fa;&#x6307;&#x5b9a;&#x51fd;&#x6570;"/>
 <node CREATED="1499332631626" ID="ID_1446287096" MODIFIED="1499332632672" TEXT="my $dirname = File::Basename::dirname($some_path);"/>
 <node CREATED="1499332687915" ID="ID_437202632" MODIFIED="1499332689757" TEXT="use File::Basename (); # no import&#xa;my $base = File::Basename::basename($some_path);"/>
 </node>
 </node>
 <node CREATED="1499322522646" ID="ID_1741319184" MODIFIED="1499333498807" TEXT="Object-Oriented interfaces">
-<node CREATED="1499332925354" ID="ID_1564514244" MODIFIED="1499332931837" TEXT="my $filespec = File::Spec&#x2212;&gt;catfile( $homedir{gilligan}, &apos;web_docs&apos;, &apos;photos&apos;, &apos;USS_Minnow.gif&apos; );"/>
+<node CREATED="1499332925354" ID="ID_1564514244" MODIFIED="1500180521313" TEXT="my $filespec = File::Spec&#x2212;&gt;catfile( $homedir{gilligan}, &apos;web_docs&apos;, &apos;photos&apos;, &apos;USS_Minnow.gif&apos; );  #&#x8de8;&#x5e73;&#x53f0;&#x8def;&#x5f84;&#x62fc;&#x63a5;"/>
 <node CREATED="1499322537276" ID="ID_1937365044" MODIFIED="1499333498807" TEXT="A more typical Object-Oriented Module:Math::BigInt">
 <node CREATED="1499333026783" ID="ID_457293789" MODIFIED="1499333029081" TEXT="use Math::BigInt;&#xa;my $value = Math::BigInt&#x2212;&gt;new(2); # start with 2&#xa;$value&#x2212;&gt;bpow(1000); # take 2**1000&#xa;print $value&#x2212;&gt;bstr, &quot;\n&quot;; # print it out"/>
 </node>
@@ -65,15 +65,15 @@
 </node>
 <node CREATED="1499322647691" ID="ID_1950732714" MODIFIED="1499343918558" TEXT="Setting the path at the right time">
 <node CREATED="1499342892631" ID="ID_1890313189" MODIFIED="1499342948712" TEXT="@INC  &#x4fdd;&#x5b58;&#x4e86;&#x8981;&#x641c;&#x7d22;&#x6a21;&#x5757;&#x4f4d;&#x7f6e;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;, &#x4ee5;&#x4e0b;&#x547d;&#x4ee4;&#x53ef;&#x4ee5;&#x6253;&#x5370;&#x8fd9;&#x4e2a;&#x4fe1;&#x606f;&#xa;% perl &#x2212;V&#xa;% perl &#x2212;le &quot;print for @INC&quot;"/>
-<node CREATED="1499343048865" ID="ID_1196811760" MODIFIED="1499343777658" TEXT="unshift @INC, &apos;/Users/gilligan/lib&apos;; # broken, &#x60f3;&#x589e;&#x52a0;&#x6211;&#x4eec;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;, &#x4f46;&#x662f;@INC &#x662f;&#x5728;&#x7f16;&#x8bd1;(&#x81ea;&#x5df1;&#x5199;&#x7684;&#x4ee3;&#x7801;)&#x7684;&#x65f6;&#x5019;&#x786e;&#x5b9a;&#x7684;, &#x5728;&#x8fd0;&#x884c;&#x65f6;&#x4f7f;&#x7528; unshift &#x662f;&#x65e0;&#x6548;&#x7684;,&#xa;&#xa;BEGIN { unshift @INC, &apos;/Users/gilligan/lib&apos;; }  # &#x8fd9;&#x4e2a;&#x4ee3;&#x7801;&#x662f;&#x751f;&#x6548;&#x7684;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use lib &apos;/Users/gilligan/lib&apos;;    &#x9;# &#x5efa;&#x8bae;&#x7684;&#x5199;&#x6cd5;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use lib &apos;/Users/gilligan/lib/Navigation/SeatOfPants.pm&apos;; &#x9;# &#x9519;&#x8bef;, &#x4e0d;&#x662f;&#x8fd9;&#x4e2a;&#x6a21;&#x5757;&#x7684;&#x6587;&#x4ef6;&#x540d;, &#x800c;&#x662f;&#x8981;&#x67e5;&#x627e;&#x8fd9;&#x4e2a;&#x6a21;&#x5757;&#x7684;&#x4f4d;&#x7f6e;&#xa;&#xa;my $LIB_DIR = &apos;/Users/gilligan/lib&apos;;&#xa;...&#xa;use lib $LIB_DIR; &#x9;# &#x9519;&#x8bef;, &#x53d8;&#x91cf;&#x7684;&#x4e5f;&#x662f;&#x5728;&#x8fd0;&#x884c;&#x671f;&#x95f4;&#x751f;&#x6548;&#x7684;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use constant LIB_DIR =&gt; &apos;/Users/gilligan/lib&apos;;&#xa;...&#xa;use lib LIB_DIR;&#x9;# &#x53ef;&#x4ee5;&#x7684;, &#x7f16;&#x8bd1;&#x7684;&#x65f6;&#x5019;&#x5c31;&#x53ef;&#x4ee5;&#x786e;&#x5b9a;&#xa;use Navigation::SeatOfPants;"/>
-<node CREATED="1499343751750" ID="ID_487060843" MODIFIED="1499343913317" TEXT="use FindBin qw($Bin);    # $Bin &#x4fdd;&#x5b58;&#x4e86;&#x7684;&#x8def;&#x5f84;&#x5730;&#x5740;"/>
+<node CREATED="1499343048865" ID="ID_1196811760" MODIFIED="1500180807491" TEXT="unshift @INC, &apos;/Users/gilligan/lib&apos;; # broken, &#x60f3;&#x589e;&#x52a0;&#x6211;&#x4eec;&#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;, &#x4f46;&#x662f;@INC &#x662f;&#x5728;&#x7f16;&#x8bd1;(&#x81ea;&#x5df1;&#x5199;&#x7684;&#x4ee3;&#x7801;)&#x7684;&#x65f6;&#x5019;&#x786e;&#x5b9a;&#x7684;, &#x5728;&#x8fd0;&#x884c;&#x65f6;&#x4f7f;&#x7528; unshift &#x662f;&#x65e0;&#x6548;&#x7684;,&#xa;&#xa;BEGIN { unshift @INC, &apos;/Users/gilligan/lib&apos;; }  # &#x8fd9;&#x4e2a;&#x4ee3;&#x7801;&#x662f;&#x751f;&#x6548;&#x7684;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use lib &apos;/Users/gilligan/lib&apos;;    &#x9;# &#x5efa;&#x8bae;&#x7684;&#x5199;&#x6cd5;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use lib &apos;/Users/gilligan/lib/Navigation/SeatOfPants.pm&apos;; &#x9;# &#x9519;&#x8bef;, &#x4e0d;&#x662f;&#x8fd9;&#x4e2a;&#x6a21;&#x5757;&#x7684;&#x6587;&#x4ef6;&#x540d;, &#x800c;&#x662f;&#x8981;&#x67e5;&#x627e;&#x8fd9;&#x4e2a;&#x6a21;&#x5757;&#x7684;&#x76ee;&#x5f55;&#x540d;&#xa;&#xa;my $LIB_DIR = &apos;/Users/gilligan/lib&apos;;&#xa;...&#xa;use lib $LIB_DIR; &#x9;# &#x9519;&#x8bef;, &#x53d8;&#x91cf;&#x7684;&#x4e5f;&#x662f;&#x5728;&#x8fd0;&#x884c;&#x671f;&#x95f4;&#x751f;&#x6548;&#x7684;&#xa;use Navigation::SeatOfPants;&#xa;&#xa;use constant LIB_DIR =&gt; &apos;/Users/gilligan/lib&apos;;&#xa;...&#xa;use lib LIB_DIR;&#x9;# &#x53ef;&#x4ee5;&#x7684;, &#x7f16;&#x8bd1;&#x7684;&#x65f6;&#x5019;&#x5c31;&#x53ef;&#x4ee5;&#x786e;&#x5b9a;&#xa;use Navigation::SeatOfPants;"/>
+<node CREATED="1499343751750" ID="ID_487060843" MODIFIED="1500180885397" TEXT="use FindBin qw($Bin);    # $Bin &#x4fdd;&#x5b58;&#x4e86;&#x5f53;&#x524d;&#x7684;&#x8def;&#x5f84;&#x5730;&#x5740;"/>
 </node>
 <node CREATED="1499322662454" ID="ID_1306264792" MODIFIED="1499346018315" TEXT="Setting the path outside the program">
 <node CREATED="1499322681881" ID="ID_934501914" MODIFIED="1499346018315" TEXT="Extending @INC with PERL5LIB">
 <node CREATED="1499345016607" ID="ID_562919555" MODIFIED="1499345137051" TEXT="setenv PERL5LIB /home/skipper/perl&#x2212;lib&#x9;# csh&#xa;export PERL5LIB=/home/skipper/perl&#x2212;lib&#x9;# bsh&#xa;&#xa;% export PERL5LIB=/home/skipper/perl&#x2212;lib:/usr/local/lib/perl5&#xa;C:\.. set PERL5LIB=&quot;C:/lib/skipper;C:/lib/perl5&quot;"/>
 </node>
 <node CREATED="1499322693905" ID="ID_1874196356" MODIFIED="1499346018315" TEXT="Extending @INC on the command line">
-<node CREATED="1499345192708" MODIFIED="1499345192708" TEXT="% perl &#x2212;I/home/skipper/perl&#x2212;lib /home/skipper/bin/get_us_home"/>
+<node CREATED="1499345192708" ID="ID_1677793992" MODIFIED="1499345192708" TEXT="% perl &#x2212;I/home/skipper/perl&#x2212;lib /home/skipper/bin/get_us_home"/>
 </node>
 </node>
 <node CREATED="1499322707825" ID="ID_1242721447" MODIFIED="1499346018315" TEXT="local::lib">
@@ -82,8 +82,8 @@
 </node>
 <node CREATED="1499322711271" ID="ID_134275108" MODIFIED="1499346018315" TEXT="Exercises"/>
 </node>
-<node CREATED="1499322716676" FOLDED="true" ID="ID_49235323" MODIFIED="1499611833907" POSITION="right" TEXT="3. Intermediate Foundations">
-<node CREATED="1499322731397" FOLDED="true" ID="ID_1443112126" MODIFIED="1499410883222" TEXT="List operators">
+<node CREATED="1499322716676" FOLDED="true" ID="ID_49235323" MODIFIED="1500877930454" POSITION="right" TEXT="3. Intermediate Foundations">
+<node CREATED="1499322731397" ID="ID_1443112126" MODIFIED="1500180690070" TEXT="List operators">
 <node CREATED="1499405370983" ID="ID_987164243" MODIFIED="1499405940942" TEXT="print &apos;Two castaways are &apos;, &apos;Gilligan&apos;, &apos; and &apos;, &apos;Skipper&apos;, &quot;\n&quot;;&#xa;my @castaways = sort qw(Gilligan Skipper Ginger Professor Mary Ann);&#xa;my @castaways = reverse qw(Gilligan Skipper Ginger Professor Mary Ann);&#xa;@castaways = reverse @castaways;"/>
 <node CREATED="1499322738960" ID="ID_1096100171" MODIFIED="1499410875302" TEXT="List Filtering with grep">
 <node CREATED="1499406524995" ID="ID_430143225" MODIFIED="1499406872673" TEXT="my @lunch_choices = grep is_edible($_), @gilligans_possessions ;  &#x9;# is_edible &#x662f;&#x4e2a;&#x51fd;&#x6570;, &#x8fd4;&#x56de;&#x771f;&#x5047;&#x503c;&#xa;my @results = grep EXPR, @input_list;&#x9;# &#x6570;&#x7ec4;&#x4e0a;&#x4e0b;&#x6587; &#xa;my $count = grep EXPR, @input_list;&#x9;# &#x6807;&#x91cf;&#x4e0a;&#x4e0b;&#x6587;, &#x8fd4;&#x56de;&#x7b26;&#x5408;&#x7684;&#x4e2a;&#x6570;&#xa;my @bigger_than_10 = grep $_ &gt; 10, @input_numbers;&#x9;# &#x663e;&#x793a;&#x4f7f;&#x7528; $_&#xa;my @end_in_4 = grep /4$/, @input_numbers;&#x9;&#x9;# &#x9690;&#x5f0f;&#x4f7f;&#x7528; $_&#xa;&#x8fd9;&#x91cc;&#x7684; $_ &#x53ea;&#x662f;&#x4e00;&#x4e2a;&#x5f15;&#x7528;, &#x800c;&#x4e0d;&#x662f;&#x590d;&#x5236;&#x503c;, &#x8ddf; foreach &#x4e2d;&#x7684; $_ &#x4e00;&#x6837; "/>
@@ -96,7 +96,7 @@
 <node CREATED="1499408288684" ID="ID_1870757315" MODIFIED="1499408301448" TEXT="my @result = map {&#xa;my @digits = split //, $_;&#xa;if ($digits[&#x2212;1] == 4) {&#xa;@digits;&#xa;} else {&#xa;( );&#xa;}&#xa;} @input_numbers;&#x9;#  &#x627e;&#x51fa;&#x5c3e;&#x6570;&#x4e3a;4 &#x7684;&#x6570;&#x5b57;"/>
 </node>
 </node>
-<node CREATED="1499322758603" FOLDED="true" ID="ID_1574280637" MODIFIED="1499610938875" TEXT="Trapping Errors with eval">
+<node CREATED="1499322758603" ID="ID_1574280637" MODIFIED="1500181030394" TEXT="Trapping Errors with eval">
 <node CREATED="1499410885444" ID="ID_644315604" MODIFIED="1499410932670" TEXT="eval &#x5757;&#x4ee3;&#x7801;&#x51fa;&#x9519;&#x7684;&#x65f6;&#x5019;&#x5728;&#x6807;&#x91cf;&#x73af;&#x5883;&#x4e0b;&#x8fd4;&#x56de; undef, &#x5728;&#x5217;&#x8868;&#x73af;&#x5883;&#x4e0b;&#x8fd4;&#x56de;&#x7a7a;&#x5217;&#x8868;"/>
 <node CREATED="1499411067400" ID="ID_1791977500" MODIFIED="1499411186924" TEXT="eval &#x4e0d;&#x80fd;&#x83b7;&#x53d6;&#x7684;&#x9519;&#x8bef;&#xa;1. &#x811a;&#x672c;&#x81ea;&#x8eab;&#x505a;&#x4e86;&#x505c;&#x6b62;&#x52a8;&#x4f5c;&#xa;2. &#x672a;&#x5904;&#x7406;&#x7684;&#x4fe1;&#x53f7;&#x5230;&#x6765;, &#x65e0;&#x53ef;&#x7528;&#x5185;&#x5b58;, &#x6216;&#x5176;&#x4ed6;&#x707e;&#x96be;&#x6027;&#x9519;&#x8bef;&#xa;3. &#x8bed;&#x6cd5;&#x9519;&#x8bef;&#xa;4. &#x4e00;&#x4e9b;&#x8b66;&#x544a;"/>
 <node CREATED="1499411309569" ID="ID_1649443968" MODIFIED="1499411313026" TEXT="use Try::Tiny;&#xa;my $average = try { $total / $count } catch { &quot;NaN&quot; };"/>
@@ -104,11 +104,11 @@
 <node CREATED="1499322765912" ID="ID_1713824195" MODIFIED="1499610938875" TEXT="Dynamic code with eval">
 <node CREATED="1499438667695" ID="ID_583829507" MODIFIED="1499438800384" TEXT="eval &apos;$sum +=2&apos;;&#x9;# &#x8fd9;&#x5c06;&#x4f1a;&#x5728;&#x8fd0;&#x884c;&#x65f6;&#x7f16;&#x8bd1;, &#x4f46;&#x662f;&#x5bb9;&#x6613;&#x5f15;&#x53d1;&#x95ee;&#x9898;, &#x5efa;&#x8bae;&#x5c11;&#x7528;"/>
 <node CREATED="1499610554902" ID="ID_1276522609" MODIFIED="1499610585030" TEXT="foreach my $operator ( qw(+ &#x2212; * /) ) {&#xa;my $result = eval &quot;2 $operator 2&quot;;&#xa;print &quot;2 $operator 2 is $result\n&quot;;&#xa;}"/>
-<node CREATED="1499610881939" ID="ID_439696532" MODIFIED="1499610931454" TEXT="&#x51fa;&#x9519;&#x65f6;&#x540c; eval &#x7684;&#x7b2c;&#x4e00;&#x79cd;&#x5f62;&#x5f0f;&#x4e00;&#x6837;, &#x4e5f;&#x4f1a;&#x5c06;&#x9519;&#x8bef;&#x4fdd;&#x7559;&#x5728; $@ &#x4e2d;, &#x53ef;&#x80fd;&#x5bf9;&#x8fd9;&#x4e2a;&#x5c31;&#x662f;&#x8fdb;&#x884c;&#x68c0;&#x6d4b;"/>
+<node CREATED="1499610881939" ID="ID_439696532" MODIFIED="1500181098090" TEXT="&#x51fa;&#x9519;&#x65f6;&#x540c; eval &#x7684;&#x7b2c;&#x4e00;&#x79cd;&#x5f62;&#x5f0f;&#x4e00;&#x6837;, &#x4e5f;&#x4f1a;&#x5c06;&#x9519;&#x8bef;&#x4fdd;&#x7559;&#x5728; $@ &#x4e2d;, &#x53ef;&#x4ee5;&#x5bf9;&#x8fd9;&#x4e2a;&#x8fdb;&#x884c;&#x68c0;&#x6d4b;"/>
 </node>
 <node CREATED="1499322784565" ID="ID_279757784" MODIFIED="1499611826610" TEXT="The do block">
 <node CREATED="1499611078426" ID="ID_1156039224" MODIFIED="1499611082933" TEXT="my $bowler = do {&#xa;if( ... some condition ... ) { &apos;Mary Ann&apos; }&#xa;elsif( ... some condition ... ) { &apos;Ginger&apos; }&#xa;else { &apos;The Professor&apos; }&#xa;};"/>
-<node CREATED="1499611220135" ID="ID_832414389" MODIFIED="1499611321660" TEXT="my $file_contents = do {&#xa;local $/;&#x9;&#x9;# $/ &#x662f;&#x8f93;&#x5165;&#x8bb0;&#x5f55;&#x7684;&#x5206;&#x9694;&#x7b26;, &#x8fd9;&#x91cc;&#x8bbe;&#x7f6e;&#x4e3a;&#x8fd9;&#x4eba;, &#x5373;&#x6ca1;&#x6709;&#x5206;&#x9694;&#x7b26;, &#x6574;&#x4e2a;&#x6587;&#x4ef6;&#x4f1a;&#x88ab;&#x5f53;&#x4f5c;&#x4e00;&#x884c;&#x6765;&#x8fdb;&#x884c;&#x5904;&#x7406;&#xa;local @ARGV = ( $filename );&#x9;# &#x8fd9;&#x662f;&#x8bbe;&#x7f6e;&#x4e86;&#x4e00;&#x4e2a;&#x672c;&#x5730;&#x7684; ARGV &#x53d8;&#x91cf;&#x7528;&#x6765;&#x4fdd;&#x5b58;&#x6587;&#x4ef6;&#x540d;, &#x7ed9;&#x4e0b;&#x9762;&#x7684; &lt;&gt; &#x5f53;&#x9ed8;&#x8ba4;&#x503c;&#xa;&lt;&gt;&#x9;&#x9;# &#x9009;&#x53d6;&#x6587;&#x4ef6;&#x5185;&#x5bb9;&#x5e76;&#x8fd4;&#x56de;&#x7ed9;&#x53d8;&#x91cf;&#xa;};"/>
+<node CREATED="1499611220135" ID="ID_832414389" MODIFIED="1500181131129" TEXT="my $file_contents = do {&#xa;local $/;&#x9;&#x9;# $/ &#x662f;&#x8f93;&#x5165;&#x8bb0;&#x5f55;&#x7684;&#x5206;&#x9694;&#x7b26;, &#x8fd9;&#x91cc;&#x8bbe;&#x7f6e;&#x4e3a;&#x8fd9;&#x6837;, &#x5373;&#x6ca1;&#x6709;&#x5206;&#x9694;&#x7b26;, &#x6574;&#x4e2a;&#x6587;&#x4ef6;&#x4f1a;&#x88ab;&#x5f53;&#x4f5c;&#x4e00;&#x884c;&#x6765;&#x8fdb;&#x884c;&#x5904;&#x7406;&#xa;local @ARGV = ( $filename );&#x9;# &#x8fd9;&#x662f;&#x8bbe;&#x7f6e;&#x4e86;&#x4e00;&#x4e2a;&#x672c;&#x5730;&#x7684; ARGV &#x53d8;&#x91cf;&#x7528;&#x6765;&#x4fdd;&#x5b58;&#x6587;&#x4ef6;&#x540d;, &#x7ed9;&#x4e0b;&#x9762;&#x7684; &lt;&gt; &#x5f53;&#x9ed8;&#x8ba4;&#x503c;&#xa;&lt;&gt;&#x9;&#x9;# &#x9009;&#x53d6;&#x6587;&#x4ef6;&#x5185;&#x5bb9;&#x5e76;&#x8fd4;&#x56de;&#x7ed9;&#x53d8;&#x91cf;&#xa;};"/>
 <node CREATED="1499611409397" ID="ID_682369090" MODIFIED="1499611611123" TEXT="do $filename;&#x9;&#x9;# &#x4f1a;&#x7528; Perl &#x53bb;&#x6267;&#x884c;&#x8fd9;&#x4e2a;&#x6587;&#x4ef6;&#x7684;&#x5185;&#x5bb9;, &#x5982;&#x679c;&#x4e0d;&#x662f;&#x6587;&#x4ef6;&#x5e94;&#x8be5;&#x4f1a;&#x62a5;&#x9519;, &#x80fd; eval &#x53bb;&#x6267;&#x884c;, &#x5982;&#x679c;&#x6267;&#x884c;&#x51fa;&#x9519;, do &#x534a;&#x4e0d;&#x5728;&#x4e4e;, &#x4f1a;&#x7ee7;&#x7eed;&#x6267;&#x884c;&#x6211;&#x4eec;&#x7684;&#x4ee3;&#x7801; , do &#x4f1a;&#x8d2f;&#x7a7f;&#x6574;&#x4e2a;&#x8fdb;&#x7a0b;, &#x5373;&#x4fbf;&#x6587;&#x4ef6;&#x5df2;&#x7ecf;&#x52a0;&#x8f7d; ???&#xa;&#x4e00;&#x822c;&#x6ca1;&#x6709;&#x4eba;&#x4f1a;&#x8fd9;&#x4e48;&#x7528;"/>
 <node CREATED="1499611640904" ID="ID_746593792" MODIFIED="1499611808046" TEXT="use &#x52a0;&#x8f7d;&#x6a21;&#x5757;&#x662f;&#x5728;&#x7f16;&#x8bd1;&#x65f6;,  use &#x76f8;&#x5f53;&#x4e8e;&#x4e0b;&#x9762;&#x7684; BEGIN &#x4ee3;&#x7801;&#xa;require &#x662f;&#x5728;&#x8fd0;&#x884c;&#x65f6;&#x52a0;&#x8f7d;, &#x6240;&#x4ee5;&#x53ef;&#x4ee5;&#x4f7f;&#x7528; require $filename, &#x5c31;&#x50cf; do &#x4e00;&#x6837;, require &#x4e0d;&#x4f1a;&#x91cd;&#x590d;&#x52a0;&#x8f7d;&#x6587;&#x4ef6;&#xa;BEGIN { # what use is really doing&#xa;require List::Util;&#xa;List::Util&#x2212;&gt;import(...);&#xa;}"/>
 </node>
@@ -116,13 +116,13 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499322804184" FOLDED="true" ID="ID_1421721242" MODIFIED="1499675598876" POSITION="right" TEXT="4. Introductioin to References">
+<node CREATED="1499322804184" FOLDED="true" ID="ID_1421721242" MODIFIED="1500877932831" POSITION="right" TEXT="4. Introductioin to References">
 <node CREATED="1499322814579" ID="ID_973367844" MODIFIED="1499675592274" TEXT="Doing the same task on many arrays">
 <node CREATED="1499651715720" ID="ID_1783932617" MODIFIED="1499651726306" TEXT="my %whos_items = map { $_, 1 } @_;  # hash &#x521d;&#x59cb;&#x5316;"/>
 </node>
 <node CREATED="1499322827285" ID="ID_1551571573" MODIFIED="1499675592273" TEXT="PeGS: Perl graphical structures"/>
 <node CREATED="1499322854726" ID="ID_1495385040" MODIFIED="1499675592273" TEXT="Taking a reference to an array">
-<node CREATED="1499651797860" ID="ID_1822765152" MODIFIED="1499652077535" TEXT="\@array &#x9;# &#x8f93;&#x51fa;&#x7684;&#x7ed3;&#x679c;&#x662f;&#x4e00;&#x60f3;&#x6570;&#x7ec4;&#x7684;&#x5f15;&#x7528;, &#x800c;&#x4e0d;&#x662f;&#x6570;&#x7ec4;&#x672c;&#x8eab;&#xa;my $ref_to_array = \@array;&#x9;# ref_to_array  &#x662f;&#x6807;&#x91cf;, array &#x662f;&#x6570;&#x7ec4;, ref_to_array &#x53ef;&#x4ee5;&#x4ee5;&#x6807;&#x91cf;&#x5b58;&#x5728;&#x4e8e;&#x5176;&#x4ed6;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e2d;&#xa;&#x5f15;&#x7528;&#x6307;&#x5411;&#x7684;&#x662f;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x800c;&#x4e0d;&#x662f;&#x53d8;&#x91cf;&#x540d;"/>
+<node CREATED="1499651797860" ID="ID_1822765152" MODIFIED="1500181204242" TEXT="\@array &#x9;# &#x8f93;&#x51fa;&#x7684;&#x7ed3;&#x679c;&#x662f;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x7684;&#x5f15;&#x7528;, &#x800c;&#x4e0d;&#x662f;&#x6570;&#x7ec4;&#x672c;&#x8eab;&#xa;my $ref_to_array = \@array;&#x9;# ref_to_array  &#x662f;&#x6807;&#x91cf;, array &#x662f;&#x6570;&#x7ec4;, ref_to_array &#x53ef;&#x4ee5;&#x4ee5;&#x6807;&#x91cf;&#x5b58;&#x5728;&#x4e8e;&#x5176;&#x4ed6;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e2d;&#xa;&#x5f15;&#x7528;&#x6307;&#x5411;&#x7684;&#x662f;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x800c;&#x4e0d;&#x662f;&#x53d8;&#x91cf;&#x540d;"/>
 <node CREATED="1499652180827" ID="ID_914087227" MODIFIED="1499652212816" TEXT="&#x4e24;&#x4e2a;&#x5f15;&#x7528;&#x8fdb;&#x884c;&#x6bd4;&#x8f83;, &#x6bd4;&#x8f83;&#x7684;&#x662f;&#x4ed6;&#x4eec;&#x6240;&#x6307;&#x5411;&#x6570;&#x636e;&#x7684;&#x5730;&#x5740;, &#x5982;&#x679c;&#x5730;&#x5740;&#x76f8;&#x540c;, &#x8bf4;&#x660e;&#x4e24;&#x4e2a;&#x5f15;&#x7528;&#x4e5f;&#x76f8;&#x7b49;"/>
 <node CREATED="1499652342519" ID="ID_737425509" MODIFIED="1499652366349" TEXT="&#x5f53;&#x811a;&#x672c;&#x8f93;&#x51fa;&#x6709;&#x5305;&#x542b; 16 &#x8fdb;&#x5236;&#x5730;&#x5740;&#x65f6;, &#x8bf4;&#x660e;&#x6211;&#x7684;&#x4ee3;&#x7801;&#x6709;&#x95ee;&#x9898;, &#x5bf9;&#x53d8;&#x91cf;&#x7c7b;&#x578b;&#x7684;&#x5f15;&#x7528;&#x4e0d;&#x5f53;"/>
 </node>
@@ -131,7 +131,7 @@
 <node CREATED="1499653213876" ID="ID_982644458" MODIFIED="1499653296568" TEXT="sub check_required_items {&#xa;my %whos_items = map {$_, 1} @{$_[1]};&#x9;# @_ &#x4e3a;&#x53c2;&#x6570;&#x5217;&#x8868;, $_[1], &#x4e3a;&#x53c2;&#x6570;&#x5217;&#x8868;&#x7684;&#x7b2c;2&#x4e2a;&#x53c2;&#x6570;"/>
 </node>
 <node CREATED="1499322885117" ID="ID_1871869044" MODIFIED="1499675592273" TEXT="Getting out braces off">
-<node CREATED="1499653401980" ID="ID_809079755" MODIFIED="1499653841433" TEXT="@{$times}&#x9;==&#x9;@$items&#xa;${$items}[1]&#x9;==&#x9;$$items[1]&#xa;&#x5f53;&#x82b1;&#x62ec;&#x53f7;&#x5185;&#x4e0d;&#x662f;&#x4e00;&#x4e2a;&#x5355;&#x4e00;&#x7684;&#x53d8;&#x91cf;&#x540d;&#x5b57;&#x800c;&#x662f;&#x4e00;&#x4e2a;&#x7ec4;&#x5408;&#x7684;&#x65f6;&#x5019;, &#x4e0d;&#x53ef;&#x4ee5;&#x53bb;&#x5e74;&#x82b1;&#x62ec;&#x53f7;, &#x5982;&#x4e0a;&#x9762;&#x7684; @{$_[1]}&#xa;"/>
+<node CREATED="1499653401980" ID="ID_809079755" MODIFIED="1500181282876" TEXT="@{$times}&#x9;==&#x9;@$items&#xa;${$items}[1]&#x9;==&#x9;$$items[1]&#xa;&#x5f53;&#x82b1;&#x62ec;&#x53f7;&#x5185;&#x4e0d;&#x662f;&#x4e00;&#x4e2a;&#x5355;&#x4e00;&#x7684;&#x53d8;&#x91cf;&#x540d;&#x5b57;&#x800c;&#x662f;&#x4e00;&#x4e2a;&#x7ec4;&#x5408;&#x7684;&#x65f6;&#x5019;, &#x4e0d;&#x53ef;&#x4ee5;&#x53bb;&#x6389;&#x82b1;&#x62ec;&#x53f7;, &#x5982;&#x4e0a;&#x9762;&#x7684; @{$_[1]}&#xa;"/>
 <node CREATED="1499653842040" ID="ID_1681613840" MODIFIED="1499653873886" TEXT="@{$times}  @{$$items}  &#x53ef;&#x4ee5;&#x53bb;&#x6389;&#x82b1;&#x62ec;&#x53f7;"/>
 </node>
 <node CREATED="1499322891976" ID="ID_121515639" MODIFIED="1499675592273" TEXT="Modifying the array">
@@ -160,34 +160,34 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499322970130" ID="ID_916847636" MODIFIED="1499694511572" POSITION="right" TEXT="5. References and scoping">
-<node CREATED="1499322984285" FOLDED="true" ID="ID_457026105" MODIFIED="1499694497713" TEXT="More than one reference to data">
+<node CREATED="1499322970130" FOLDED="true" ID="ID_916847636" MODIFIED="1500877935776" POSITION="right" TEXT="5. References and scoping">
+<node CREATED="1499322984285" ID="ID_457026105" MODIFIED="1500182153591" TEXT="More than one reference to data">
 <node CREATED="1499675788377" ID="ID_1707297989" MODIFIED="1499676063232" TEXT="&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x53ef;&#x80fd;&#x4f1a;&#x6709;&#x591a;&#x4e2a;&#x5730;&#x65b9;&#x5f15;&#x7528;, &#x6bcf;&#x4e2a;&#x5f15;&#x7528;&#x90fd;&#x4f1a;&#x5728;&#x4ed6;&#x7684;&#x5f15;&#x7528;&#x6570;&#x503c;&#x6b62;&#x52a0;1, &#x5f53;&#x5f15;&#x7528;&#x8fdb;&#x884c;&#x8d4b;&#x503c;&#x65f6;&#x4e5f;&#x4f1a;&#x6709;&#x8fd9;&#x60c5;&#x51b5;&#xa;&#x5728;&#x5b50;&#x8fdb;&#x7a0b;&#x4f20;&#x9012;&#x53c2;&#x6570;&#x7684;&#x8fc7;&#x7a0b;&#x4e2d;, &#x4e5f;&#x4f1a;&#x4ea7;&#x751f;&#x533f;&#x540d;&#x5f15;&#x7528;, &#x5728;&#x5b50;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;&#x65f6;&#x4f1a;&#x91ca;&#x653e;, &#x5f53;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x7684;&#x5f15;&#x7528;&#x6570;&#x4e3a; 0 &#x65f6;, &#x5c31;&#x4f1a;&#x91ca;&#x653e;&#x6389;&#x8fd9;&#x4e2a;&#x6570;&#x636e;&#xa;&#x5220;&#x9664;&#x4e00;&#x4e2a;&#x5f15;&#x7528;&#x7684;&#x65b9;&#x6cd5;&#xa;$ref = undef&#xa;&#x6216;&#x8005;&#x8ba9;&#x4ed6;&#x5728;&#x4e00;&#x4e2a;&#x88f8;&#x5757;&#x4e2d;&#x521d;&#x59cb;&#x5316;, &#x5728;&#x9000;&#x51fa;&#x88f8; &#x5757;&#x65f6;, &#x4e5f;&#x4f1a;&#x91ca;&#x653e;&#x6389;"/>
 </node>
-<node CREATED="1499322998555" FOLDED="true" ID="ID_1583652134" MODIFIED="1499694496075" TEXT="What if that was the name?">
+<node CREATED="1499322998555" ID="ID_1583652134" MODIFIED="1499762420615" TEXT="What if that was the name?">
 <node CREATED="1499676205960" ID="ID_1502911197" MODIFIED="1499676329404" TEXT="my $ref;&#xa;{&#xa;my @skipper = qw(blue_shirt hat jacket preserver sunscreen); # ref count is 1&#xa;$ref = \@skipper; # ref count is 2&#xa;print &quot;$ref&#x2212;&gt;[2]\n&quot;; # prints jacket\n&#xa;}&#xa;print &quot;$ref&#x2212;&gt;[2]\n&quot;; # still prints jacket\n # ref count is 1&#x9;# skipper &#x540d;&#x79f0;&#x5df2;&#x7ecf;&#x5931;&#x6548;, &#x4f46;&#x662f; $ref &#x4ecd;&#x7136;&#x5f15;&#x7528;&#x4e4b;&#x524d;&#x7684;&#x90a3;&#x5757;&#x6570;&#x636e;, &#x8fd8;&#x5b58;&#x5728;&#x4e8e;&#x5185;&#x5b58;&#x4e2d;&#xa;push @$ref, &apos;sextant&apos;; # add a new provision&#xa;print &quot;$ref&#x2212;&gt;[&#x2212;1]\n&quot;; # prints sextant\n&#xa;my $copy_of_ref = $ref;&#xa;or equivalently:&#xa;my $copy_of_ref = \@$ref;&#xa;$ref = undef; # not yet...&#xa;$copy_of_ref = undef; # poof!"/>
 </node>
-<node CREATED="1499323072660" FOLDED="true" ID="ID_730097434" MODIFIED="1499694494825" TEXT="Reference counting and nested data structures">
+<node CREATED="1499323072660" ID="ID_730097434" MODIFIED="1499762423895" TEXT="Reference counting and nested data structures">
 <node CREATED="1499676657586" ID="ID_1842682682" MODIFIED="1499676696312" TEXT="&#x4e00;&#x4e2a;&#x5927;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;, &#x5982;&#x679c;&#x91cc;&#x9762;&#x7684;&#x4e00;&#x90e8;&#x5206;&#x6570;&#x636e;&#x88ab;&#x5f15;&#x7528;&#x51fa;&#x6765;, &#x5f53;&#x5927;&#x7684;&#x6570;&#x636e;&#x5757;&#x5f15;&#x7528;&#x6d88;&#x5931;&#x6e05;&#x9664;&#x65f6;, &#x90a3;&#x4e00;&#x90e8;&#x5206;&#x88ab;&#x5f15;&#x7528;&#x7684;&#x6570;&#x636e;&#x4f1a;&#x4ecd;&#x7136;&#x5b58;&#x5728;&#x4e8e;&#x5185;&#x5b58;&#x4e2d;"/>
 </node>
-<node CREATED="1499323089269" FOLDED="true" ID="ID_1864071624" MODIFIED="1499694493023" TEXT="When reference Counting goes bad">
+<node CREATED="1499323089269" ID="ID_1864071624" MODIFIED="1499762426680" TEXT="When reference Counting goes bad">
 <node CREATED="1499676914189" ID="ID_215948446" MODIFIED="1499677058775" TEXT="my @data1 = qw(one won);&#xa;my @data2 = qw(two too to);&#xa;push @data2, \@data1;&#xa;push @data1, \@data2;&#x9;# &#x53d8;&#x91cf;&#x5faa;&#x73af;&#x5f15;&#x7528;, &#x4f1a;&#x5bfc;&#x81f4;&#x5185;&#x5b58;&#x95ee;&#x9898;"/>
 <node CREATED="1499677061324" ID="ID_1817837371" MODIFIED="1499677090795" TEXT="{&#xa;my @data1 = qw(one won);&#xa;my @data2 = qw(two too to);&#xa;Figure 5-1. When the references in a data structure form a loop, Perl&#x2019;s reference-counting system may&#xa;not be able to recognize and recycle the no-longer-needed memory space&#xa;1. We might be able to find these problems with Test::MemoryCycle.&#xa;58 | Chapter 5:&#x2002;References and Scopingpush @data2, \@data1;&#xa;push @data1, \@data2;&#xa;... use @data1, @data2 ...&#xa;# at the end:&#xa;@data1 = ( );&#xa;@data2 = ( );&#xa;}&#x9;&#x9;# &#x5faa;&#x73af;&#x53d8;&#x91cf;&#x7684;&#x5f15;&#x7528;, &#x5728;&#x9000;&#x51fa;&#x5757;&#x65f6;, &#x624b;&#x52a8;&#x8fdb;&#x884c;&#x6e05;&#x9664;"/>
 </node>
-<node CREATED="1499323100020" FOLDED="true" ID="ID_93038203" MODIFIED="1499694491439" TEXT="Creating an anonymous array directly">
-<node CREATED="1499677463654" ID="ID_1564264412" MODIFIED="1499677591411" TEXT="my @skipper_with_name;&#xa;{&#xa;my @skipper = qw(blue_shirt hat jacket preserver sunscreen);&#xa;@skipper_with_name = (&apos;The Skipper&apos;, \@skipper);&#xa;}&#x9;&#x9;# &#x521b;&#x5efa;&#x533f;&#x540d;&#x5f15;&#x7528;&#xa;&#xa;my $ref_to_skipper_provisions =&#xa;[ qw(blue_shirt hat jacket preserver sunscreen) ];&#x9;# &#x76f4;&#x63a5;&#x521b;&#x5efa;&#x533f;&#x540d;&#x5f15;&#x7528;"/>
+<node CREATED="1499323100020" ID="ID_93038203" MODIFIED="1499762432137" TEXT="Creating an anonymous array directly">
+<node CREATED="1499677463654" ID="ID_1564264412" MODIFIED="1500182345215" TEXT="my @skipper_with_name;&#xa;{&#xa;my @skipper = qw(blue_shirt hat jacket preserver sunscreen);&#xa;@skipper_with_name = (&apos;The Skipper&apos;, \@skipper);&#xa;}&#x9;&#x9;# &#x521b;&#x5efa;&#x533f;&#x540d;&#x5f15;&#x7528;&#xa;&#xa;my $ref_to_skipper_provisions =&#xa;[ qw(blue_shirt hat jacket preserver sunscreen) ];&#x9;# &#x76f4;&#x63a5;&#x521b;&#x5efa;&#x533f;&#x540d;&#x5f15;&#x7528;,, &#x4e2d;&#x62ec;&#x53f7;&#x4ee3;&#x8868;&#x7740;&#x6570;&#x7ec4;&#x5f15;&#x7528;"/>
 <node CREATED="1499677680902" ID="ID_676114860" MODIFIED="1499677690150" TEXT="my $ref_to_skipper_provisions =&#xa;[ qw(blue_shirt hat jacket preserver sunscreen) ];&#xa;&#xa;my @skipper_with_name = (&#xa;&apos;The Skipper&apos;,&#xa;[ qw(blue_shirt hat jacket preserver sunscreen) ]&#xa;);"/>
 <node CREATED="1499677896451" ID="ID_1795374963" MODIFIED="1499677935145" TEXT="my $fruits;&#xa;{&#xa;my @secret_variable = (&apos;pineapple&apos;, &apos;papaya&apos;, &apos;mango&apos;);&#xa;$fruits = \@secret_variable;&#xa;}&#xa;&#x5982;&#x540c;&#x4e0b;&#x9762;&#x7684;&#x529f;&#x80fd;&#x4e00;&#x6837;&#xa;my $fruits = [&apos;pineapple&apos;, &apos;papaya&apos;, &apos;mango&apos;];&#xa;my $fruits = [ qw(pineapple papaya mango) ];"/>
 <node CREATED="1499677979179" ID="ID_348686166" MODIFIED="1499678021864" TEXT="sub get_provisions_list {&#xa;&#x9; (&#xa;&#x9;&#x9;[&apos;The Skipper&apos;, [qw(blue_shirt hat jacket preserver sunscreen) ] ],&#xa;&#x9;&#x9;[&apos;The Professor&apos;, [qw(sunscreen water_bottle slide_rule batteries radio) ] ],&#xa;&#x9;&#x9;[&apos;Gilligan&apos;, [qw(red_shirt hat lucky_socks water_bottle) ] ],&#xa;&#x9;);&#xa;}&#xa;my @all_with_names = get_provisions_list( );&#xa;&#x591a;&#x5c42;&#x533f;&#x540d;&#x5d4c;&#x5957;"/>
 <node CREATED="1499678172314" ID="ID_831426780" MODIFIED="1499678184714" TEXT="[&apos;Mrs. Howell&apos;,&#xa;&#x9;[ ] # anonymous empty array reference&#xa;],&#x9;# &#x7a7a;&#x7684;&#x533f;&#x540d;&#x6570;&#x7ec4;"/>
 </node>
-<node CREATED="1499323120351" FOLDED="true" ID="ID_759460745" MODIFIED="1499694503147" TEXT="Creating an anonymouse hash">
+<node CREATED="1499323120351" ID="ID_759460745" MODIFIED="1499762410988" TEXT="Creating an anonymouse hash">
 <node CREATED="1499678354207" ID="ID_1970681955" MODIFIED="1499678384522" TEXT="my %gilligan_info = (&#xa;&#x9;name =&gt; &apos;Gilligan&apos;,&#xa;&#x9;hat =&gt; &apos;White&apos;,&#xa;&#x9;shirt =&gt; &apos;Red&apos;,&#xa;&#x9;position =&gt; &apos;First Mate&apos;,&#xa;);&#xa;my %skipper_info = (&#xa;&#x9;name =&gt; &apos;Skipper&apos;,&#xa;&#x9;hat =&gt; &apos;Black&apos;,&#xa;&#x9;shirt =&gt; &apos;Blue&apos;,&#xa;&#x9;position =&gt; &apos;Captain&apos;,&#xa;);&#xa;my @crew = (\%gilligan_info, \%skipper_info);"/>
 <node CREATED="1499687531656" ID="ID_1374649911" MODIFIED="1499687533600" TEXT="my $ref_to_gilligan_info = {&#xa;name =&gt; &apos;Gilligan&apos;,&#xa;hat =&gt; &apos;White&apos;,&#xa;shirt =&gt; &apos;Red&apos;,&#xa;position =&gt; &apos;First Mate&apos;,&#xa;};"/>
-<node CREATED="1499687632774" ID="ID_498767132" MODIFIED="1499687715911" TEXT="my @crew = (&#xa;{&#xa;name =&gt; &apos;Gilligan&apos;,&#xa;hat =&gt; &apos;White&apos;,&#xa;shirt =&gt; &apos;Red&apos;,&#xa;position =&gt; &apos;First Mate&apos;,&#xa;},&#xa;{&#xa;name =&gt; &apos;Skipper&apos;,&#xa;hat =&gt; &apos;Black&apos;,&#xa;shirt =&gt; &apos;Blue&apos;,&#xa;position =&gt; &apos;Captain&apos;,&#xa;},&#xa;);&#x9;# &#x6ce8;&#x610f;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x9017;&#x53f7;, &#x8fd9;&#x91cc;&#x5e94;&#x8be5;&#x662f;&#x53ef;&#x5199;&#x53ef;&#x4e0d;&#x5199;, &#x4f46;&#x65b9;&#x4fbf;&#x6269;&#x5c55;"/>
+<node CREATED="1499687632774" ID="ID_498767132" MODIFIED="1500182424873" TEXT="my @crew = (&#xa;{&#xa;name =&gt; &apos;Gilligan&apos;,&#xa;hat =&gt; &apos;White&apos;,&#xa;shirt =&gt; &apos;Red&apos;,&#xa;position =&gt; &apos;First Mate&apos;,&#xa;},&#xa;{&#xa;name =&gt; &apos;Skipper&apos;,&#xa;hat =&gt; &apos;Black&apos;,&#xa;shirt =&gt; &apos;Blue&apos;,&#xa;position =&gt; &apos;Captain&apos;,&#xa;},&#xa;);&#x9;# &#x5927;&#x62ec;&#x53f7;&#x4ee3;&#x8868;&#x533f;&#x540d;&#x54c8;&#x5e0c;&#x5f15;&#x7528;, &#x6ce8;&#x610f;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x9017;&#x53f7;, &#x8fd9;&#x91cc;&#x5e94;&#x8be5;&#x662f;&#x53ef;&#x5199;&#x53ef;&#x4e0d;&#x5199;, &#x4f46;&#x65b9;&#x4fbf;&#x6269;&#x5c55;"/>
 <node CREATED="1499688561567" ID="ID_1031425001" MODIFIED="1499689092163" TEXT="&#x56e0;&#x4e3a;&#x533f;&#x540d;&#x54c8;&#x5e0c;&#x7ed3;&#x6784;&#x8ddf;&#x4ee3;&#x7801;&#x5757;&#x5f62;&#x5f0f;&#x7c7b;&#x4f3c;, &#x6709;&#x65f6;&#x5019; perl &#x4e0d;&#x4e00;&#x5b9a;&#x731c;&#x7684;&#x51c6;, &#x53ef;&#x4ee5;&#x8fdb;&#x884c;&#x5f3a;&#x5236;&#x8bf4;&#x660e;&#xa;+{}&#x9;# &#x54c8;&#x5e0c;&#x533f;&#x540d;&#x5f15;&#x7528;&#xa;{;}&#x9;# &#x4ee3;&#x7801;&#x5757;"/>
 </node>
-<node CREATED="1499323134689" FOLDED="true" ID="ID_1891507496" MODIFIED="1499694509840" TEXT="Autovivificatioin">
+<node CREATED="1499323134689" ID="ID_1891507496" MODIFIED="1499762407052" TEXT="Autovivificatioin">
 <node CREATED="1499689094469" ID="ID_523917138" MODIFIED="1499690136129" TEXT="my %provisions;&#xa;my $person;&#xa;while (&lt;&gt;) {&#xa;if (/^(\S.*)/) { # a person&apos;s name (no leading whitespace)&#xa;$person = $1;&#xa;$provisions{$person} = [ ] unless $provisions{$person};&#x9;# &#x6b64;&#x884c;&#x53ef;&#x6ce8;&#x91ca;, &#x540e;&#x9762;&#x4f1a;&#x5f3a;&#x5236;&#x8f6c;&#x6362;&#xa;} elsif (/^\s+(\S.*)/) { # a provision&#xa;die &apos;No person yet!&apos; unless defined $person;&#xa;push @{ $provisions{$person} }, $1;&#x9;# &#x5f3a;&#x5236;&#x8f6c;&#x6362;&#x4e3a;&#x6570;&#x7ec4;&#xa;} else {&#xa;die &quot;I don&apos;t understand: $_&quot;;&#xa;}&#xa;}"/>
 <node CREATED="1499690156944" ID="ID_813042234" MODIFIED="1499694326572" TEXT="my $not_yet; # new undefined variable&#xa;@$not_yet = (1, 2, 3);"/>
 </node>
@@ -196,43 +196,48 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499323166933" ID="ID_421370094" MODIFIED="1499326309197" POSITION="right" TEXT="6. Manipulating complex data structures">
+<node CREATED="1499323166933" ID="ID_421370094" MODIFIED="1500628648746" POSITION="right" TEXT="6. Manipulating complex data structures">
 <icon BUILTIN="closed"/>
-<node CREATED="1499323198957" ID="ID_733835622" MODIFIED="1499326309196" TEXT="Using the debugger to view complex data">
-<icon BUILTIN="closed"/>
+<node CREATED="1499323198957" ID="ID_733835622" MODIFIED="1500182482116" TEXT="Using the debugger to view complex data">
+<node CREATED="1499913818006" ID="ID_1592127051" MODIFIED="1499914404383" TEXT="perl -d &#x811a;&#x672c;&#x540d;&#x79f0; [&#x811a;&#x672c;&#x53c2;&#x6570;]&#x9;# &#x4ee5;&#x6b64;&#x547d;&#x4ee4;&#x6253;&#x5f00;&#x8c03;&#x8bd5;&#x6a21;&#x5f0f;&#xa;1. s &#x5355;&#x6b65;&#x6267;&#x884c;&#xa;2. x &#x6253;&#x5370;&#x4e00;&#x591a;&#x4e2a;&#x53d8;&#x91cf;&#x540d;&#x79f0;, &#x751a;&#x81f3;&#x5f15;&#x7528;(&#x4f1a;&#x81ea;&#x5df1;&#x5224;&#x5b9a;&#x5176;&#x7c7b;&#x522b;)&#xa;&#x53ef;&#x4ee5;&#x5728; debug &#x73af;&#x5883;&#x4e2d;&#x4f7f;&#x7528; h &#x6253;&#x5f00;&#x5e2e;&#x52a9;, &#x6216;&#x8005;&#x4f7f;&#x7528; perldebug &#x547d;&#x4ee4;&#xa;x &#x64cd;&#x4f5c;&#x7684;&#x503c;&#x5e94;&#x8be5;&#x662f;&#x6807;&#x91cf;, &#x6240;&#x4ee5;&#x6253;&#x5370;&#x6570;&#x7ec4;&#x6216;&#x8005;&#x54c8;&#x5e0c;&#x7684;&#x65f6;&#x5019;,&#x5e94;&#x8be5;&#x52a0;&#x4e0a; \, &#x5982; \@ \% &#x4ee3;&#x8868;&#x7740;&#x5176;&#x5f15;&#x7528;&#x7684;&#x6807;&#x91cf;&#xa;x &#x53ef;&#x4ee5;&#x4f7f;&#x7528; perl &#x4e2d;&#x7684;&#x4e00;&#x4e9b;&#x5185;&#x7f6e;&#x51fd;&#x6570;&#x6bd4;&#x5982;&#xff1a; x keys %hash, x sort keys %hash, x $hash{$key}"/>
 </node>
-<node CREATED="1499323210615" ID="ID_1658838012" MODIFIED="1499326309196" TEXT="Viewing Complex data with Data::Dumper">
-<icon BUILTIN="closed"/>
-<node CREATED="1499323236332" ID="ID_1037091560" MODIFIED="1499326309196" TEXT="Other dumpers">
-<icon BUILTIN="closed"/>
+<node CREATED="1499323210615" ID="ID_1658838012" MODIFIED="1500182504171" TEXT="Viewing Complex data with Data::Dumper">
+<node CREATED="1499914599426" ID="ID_937614758" MODIFIED="1499914611306" TEXT="use Data::Dump;&#xa;Dump(\%hash);"/>
+<node CREATED="1499323236332" ID="ID_1037091560" MODIFIED="1499924756542" TEXT="Other dumpers">
+<node CREATED="1499915741550" ID="ID_610197552" MODIFIED="1499915753392" TEXT="use Data::Printer;&#xa;p(%hash);"/>
 </node>
 </node>
-<node CREATED="1499323243379" ID="ID_968777092" MODIFIED="1499326309196" TEXT="Marshalling data">
+<node CREATED="1499323243379" ID="ID_968777092" MODIFIED="1500180690186" TEXT="Marshalling data">
 <icon BUILTIN="closed"/>
+<node CREATED="1499916039709" ID="ID_154837558" MODIFIED="1499916107063" TEXT="$str = Dump(\@array1, \@arrar2);&#xa;$data_stucture = eval $str;"/>
+<node CREATED="1499916222047" ID="ID_922355071" MODIFIED="1499916261084" TEXT="print Data::Dumper&#x2212;&gt;Dump(&#xa;&#x9;[ \@data1, \@data2 ],&#xa;&#x9;[ qw(*data1 *data2) ]&#xa;);&#xa;@data1 = (&#xa;&#x9;&apos;one&apos;,&#xa;&#x9;&apos;won&apos;,&#xa;&#x9;[&#xa;&#x9;&#x9;&apos;two&apos;,&#xa;&#x9;&#x9;&apos;too&apos;,&#xa;&#x9;&#x9;&apos;to&apos;,&#xa;&#x9;&#x9;\@data1&#xa;&#x9;]&#xa;);&#xa;@data2 = @{$data1[2]};"/>
 <node CREATED="1499323262382" ID="ID_112537853" MODIFIED="1499326309196" TEXT="Stroring complex data with storable">
 <icon BUILTIN="closed"/>
+<node CREATED="1499916518983" ID="ID_1549858348" MODIFIED="1499916572455" TEXT="use Storable;&#xa;my @data1 = qw(one won);&#xa;my @data2 = qw(two too to);&#xa;push @data2, \@data1;&#xa;push @data1, \@data2;&#xa;my $frozen = freeze [\@data1, \@data2];&#x9;# &#x5c06;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x8f6c;&#x5316;&#x4e3a;&#x4e00;&#x4e2a;&#x4e32;&#x578b;&#x6570;&#x636e;&#xa;&#xa;use Storable;&#xa;my $data = thaw( $input );&#x9;# &#x91cd;&#x65b0;&#x6784;&#x5efa;&#x6570;&#x636e;&#x7ed3;&#x6784;, &#x8fd9;&#x91cc; data &#x5e94;&#x8be5;&#x4f1a;&#x662f;&#x4e00;&#x4e2a;&#x5f15;&#x7528;"/>
+<node CREATED="1499916616943" ID="ID_840169704" MODIFIED="1499916670642" TEXT="nstore [\@data1, \@data2], $filename;&#x9;#  &#x76f4;&#x63a5;&#x5c06;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x8f93;&#x51fa;&#x5230;&#x6587;&#x4ef6;&#xa;my $array_ref = retrieve $filename;&#x9;#  &#x4ece;&#x6587;&#x4ef6;&#x8bfb;&#x53d6;&#x5230;&#x7ed3;&#x6784;&#x5316;&#x5f15;&#x7528; "/>
+<node CREATED="1499916967230" ID="ID_1807208832" MODIFIED="1499917005067" TEXT="&#x8fd9;&#x91cc;&#x6709;&#x6d45;&#x62f7;&#x8d1d; &#x6df1;&#x62f7;&#x8d1d;&#x7684;&#x64cd;&#x4f5c; ??? &#x540e;&#x671f;&#x4ecd;&#x9700;&#x8981;&#x8be6;&#x8bfb;"/>
 </node>
-<node CREATED="1499323276700" ID="ID_1506516870" MODIFIED="1499326309196" TEXT="YAML">
+<node CREATED="1499323276700" ID="ID_1506516870" MODIFIED="1500182583000" TEXT="YAML">
+<node CREATED="1499924620470" ID="ID_1720271782" MODIFIED="1499924636269" TEXT="use YAML;&#xa;my %total_bytes;&#xa;while (&lt;&gt;) {&#xa;my ($source, $destination, $bytes) = split;&#xa;$total_bytes{$source}{$destination} += $bytes;&#xa;}&#xa;print Dump(\%total_bytes);&#x9;# &#x8f93;&#x51fa; ymal &#x683c;&#x5f0f;&#x6587;&#x672c;"/>
+</node>
+<node CREATED="1499323278908" ID="ID_326182755" MODIFIED="1500182606323" TEXT="JSON">
+<node CREATED="1499924727897" ID="ID_1724217734" MODIFIED="1499924749309" TEXT="use JSON;&#xa;print to_json( \%total_bytes, { pretty =&gt; 1 } );&#xa;my $hash_ref = from_json( $json_string );"/>
+</node>
+</node>
+<node CREATED="1499323282174" ID="ID_201736908" MODIFIED="1499925581727" TEXT="Using the map and grep Operators"/>
+<node CREATED="1499323295222" ID="ID_1757895572" MODIFIED="1500182616398" TEXT="Appliying a bit of inderection">
 <icon BUILTIN="closed"/>
+<node CREATED="1499925206507" ID="ID_1807011376" MODIFIED="1499925382604" TEXT="my @indices_of_odd_digit_sums = grep {&#xa;my $number = $input_numbers[$_];&#xa;my $sum;&#xa;$sum += $_ for split //, $number;&#xa;$sum % 2;&#xa;} 0..$#input_numbers;&#x9;# &#x627e;&#x51fa;&#x6570;&#x5b57;&#x4e3a;&#x5404;&#x4f4d;&#x52a0;&#x8d77;&#x6765;&#x662f;&#x5947;&#x6570;&#x7684;&#x7d22;&#x5f15;&#xa;&#xa;my @bigger_indices = grep {&#xa;if ($_ &gt; $#y or $x[$_] &gt; $y[$_]) {&#xa;1; # yes, select it&#xa;} else {&#xa;0; # no, don&apos;t select it&#xa;}&#xa;} 0..$#x;&#xa;my @bigger = @x[@bigger_indices];&#x9;# &#x627e;&#x51fa; @x &#x4e2d;&#x6240;&#x6709;&#x6bd4; @y &#x5927;&#x7684;&#x6570;&#x5b57;&#xa;&#xa;my @bigger_indices = grep {&#xa;$_ &gt; $#y or $x[$_] &gt; $y[$_];&#xa;} 0..$#x;&#xa;my @bigger = @x[@bigger_indices];&#xa;&#xa;my @bigger = map {&#xa;if ($_ &gt; $#y or $x[$_] &gt; $y[$_]) {&#xa;$x[$_];&#xa;} else {&#xa;( );&#xa;}&#xa;} 0..$#x;"/>
 </node>
-<node CREATED="1499323278908" ID="ID_326182755" MODIFIED="1499326309196" TEXT="JSON">
+<node CREATED="1499323316678" ID="ID_348397284" MODIFIED="1500182645225" TEXT="Selecting and Altering Complex data">
 <icon BUILTIN="closed"/>
-</node>
-</node>
-<node CREATED="1499323282174" ID="ID_201736908" MODIFIED="1499326309195" TEXT="Using the map and grep Operators">
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1499323295222" ID="ID_1757895572" MODIFIED="1499326309195" TEXT="Appliying a bit of inderection">
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1499323316678" ID="ID_348397284" MODIFIED="1499326309195" TEXT="Selecting and Altering Complex data">
-<icon BUILTIN="closed"/>
+<node CREATED="1499925491163" ID="ID_1614376732" MODIFIED="1499925576397" TEXT="my @packed_light = grep @{ $provisions{$_} } &lt; 5, keys %provisions;&#xa;&#xa;my @all_wet = grep {&#xa;my @items = @{ $provisions{$_} };&#xa;grep $_ eq &apos;water_bottle&apos;, @items;&#xa;} keys %provisions;&#xa;&#xa;my @remapped_list = map {&#xa;[ $_ =&gt; $provisions{$_} ];&#xa;} keys %provisions;&#xa;&#xa;my @person_item_pairs = map {&#xa;my $person = $_;&#xa;my @items = @{ $provisions{$person} };&#xa;map [$person =&gt; $_], @items;&#xa;} keys %provisions;"/>
 </node>
 <node CREATED="1499323331423" ID="ID_748421716" MODIFIED="1499326309195" TEXT="Exercises">
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499323336553" ID="ID_1381590497" MODIFIED="1499326309195" POSITION="right" TEXT="7. Subroutine References">
+<node CREATED="1499323336553" FOLDED="true" ID="ID_1381590497" MODIFIED="1499925607248" POSITION="right" TEXT="7. Subroutine References">
 <icon BUILTIN="closed"/>
 <node CREATED="1499323350450" ID="ID_661519473" MODIFIED="1499326309194" TEXT="Referencing a named subroutine">
 <icon BUILTIN="closed"/>
@@ -271,7 +276,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499323555386" ID="ID_431743006" MODIFIED="1499326309193" POSITION="right" TEXT="8. Filehandle references">
+<node CREATED="1499323555386" FOLDED="true" ID="ID_431743006" MODIFIED="1499925608473" POSITION="right" TEXT="8. Filehandle references">
 <icon BUILTIN="closed"/>
 <node CREATED="1499323572188" ID="ID_993873938" MODIFIED="1499326309193" TEXT="The old way">
 <icon BUILTIN="closed"/>
@@ -316,7 +321,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499323729805" ID="ID_1215942966" MODIFIED="1499326309192" POSITION="right" TEXT="9. Regular Expression References">
+<node CREATED="1499323729805" FOLDED="true" ID="ID_1215942966" MODIFIED="1499925609385" POSITION="right" TEXT="9. Regular Expression References">
 <icon BUILTIN="closed"/>
 <node CREATED="1499323748591" ID="ID_1334681665" MODIFIED="1499326309192" TEXT="Before regular expression references">
 <icon BUILTIN="closed"/>
@@ -349,7 +354,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499323892930" ID="ID_1307700796" MODIFIED="1499326309188" POSITION="right" TEXT="10. Practical Reference Tricks">
+<node CREATED="1499323892930" FOLDED="true" ID="ID_1307700796" MODIFIED="1500628653897" POSITION="right" TEXT="10. Practical Reference Tricks">
 <icon BUILTIN="closed"/>
 <node CREATED="1499323918301" ID="ID_47853871" MODIFIED="1499326309187" TEXT="Fancier Sorting">
 <icon BUILTIN="closed"/>
@@ -385,40 +390,41 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499324076778" ID="ID_1466363305" MODIFIED="1499326309186" POSITION="right" TEXT="11. Building Larger Programs">
-<icon BUILTIN="closed"/>
-<node CREATED="1499324087949" ID="ID_1793980770" MODIFIED="1499326309186" TEXT="The Cure for comman code">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324076778" ID="ID_1466363305" MODIFIED="1500875047100" POSITION="right" TEXT="11. Building Larger Programs">
+<node CREATED="1499324087949" ID="ID_1793980770" MODIFIED="1500875047100" TEXT="The Cure for comman code">
+<node CREATED="1500866004730" ID="ID_1797684279" MODIFIED="1500866044713" TEXT="&#x4e00;&#x4e9b;&#x901a;&#x7528;&#x51fd;&#x6570;&#x91c7;&#x7528;&#x590d;&#x5236;/&#x7c98;&#x8d34;&#x7684;&#x65b9;&#x5f0f;&#x65f6;, &#x5982;&#x679c;&#x9700;&#x8981;&#x4fee;&#x6539;&#x51fd;&#x6570;&#x65f6;, &#x6bcf;&#x4e2a;&#x526f;&#x672c;&#x90fd;&#x9700;&#x8981;&#x8fdb;&#x884c;&#x624b;&#x52a8;&#x4fee;&#x6539;,&#x975e;&#x5e38;&#x9ebb;&#x70e6;"/>
 </node>
-<node CREATED="1499324099796" ID="ID_498365460" MODIFIED="1499326309186" TEXT="Inserting code with eval">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324099796" ID="ID_498365460" MODIFIED="1500875047100" TEXT="Inserting code with eval">
+<node CREATED="1500866422197" ID="ID_61071367" MODIFIED="1500866457305" TEXT="&#x5c06;&#x901a;&#x7528;&#x4ee3;&#x7801;&#x5199;&#x5165;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;, &#x5728;&#x5176;&#x4ed6;&#x6587;&#x4ef6;&#x4e2d;&#x901a;&#x8fc7;&#x8bfb;&#x53d6;&#x6b64;&#x6587;&#x4ef6;&#x5185;&#x5bb9;, &#x7528; eval &#x8fdb;&#x884c;&#x6267;&#x884c;, &#x4f46;&#x8fd9;&#x4e0d;&#x662f;&#x597d;&#x7684;&#x505a;&#x6cd5;"/>
 </node>
-<node CREATED="1499324110742" ID="ID_1406117647" MODIFIED="1499326309185" TEXT="Using do">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324110742" ID="ID_1406117647" MODIFIED="1500875047100" TEXT="Using do">
+<node CREATED="1500866703298" ID="ID_1837344655" MODIFIED="1500866750710" TEXT="&#x4f7f;&#x7528; do &#x52a0;&#x8f7d;&#x5176;&#x4ed6;&#x4ee3;&#x7801;, &#x4f46;&#x662f;&#x4ee3;&#x7801;&#x8981;&#x5199;&#x56fa;&#x5b9a;&#x8def;&#x5f84;, &#x4e14;&#x6bcf;&#x6b21; do &#x90fd;&#x9700;&#x8981;&#x4f7f;&#x7528; $@ &#x8fdb;&#x884c;&#x9519;&#x8bef;&#x5224;&#x65ad;"/>
 </node>
-<node CREATED="1499324113850" ID="ID_1420685057" MODIFIED="1499326309185" TEXT="Using require">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324113850" ID="ID_1420685057" MODIFIED="1500875047100" TEXT="Using require">
+<node CREATED="1500866885360" ID="ID_134436238" MODIFIED="1500867004583" TEXT="require &#x53ef;&#x4ee5;&#x63a7;&#x5236;&#x4e00;&#x4e2a;&#x6a21;&#x5757;&#x53ea;&#x52a0;&#x8f7d;&#x4e00;&#x6b21;, &#x5728; require &#x52a0;&#x8f7d;&#x9519;&#x8bef;&#x4ee3;&#x7801;&#x65f6;, &#x53ef;&#x4ee5; die , &#x6700;&#x540e;&#x4e00;&#x4e2a;&#x8bed;&#x53e5;&#x5fc5;&#x987b;&#x8fd4;&#x56de; true , &#x4ee5;&#x544a;&#x77e5; perl &#x6a21;&#x5757;&#x6210;&#x529f;&#x6267;&#x884c;, &#x6bd4;&#x5982; (1;)"/>
 </node>
-<node CREATED="1499324120356" ID="ID_1425853092" MODIFIED="1499326309185" TEXT="The problem of namespace collisions">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324120356" ID="ID_1425853092" MODIFIED="1500875047100" TEXT="The problem of namespace collisions">
+<node CREATED="1500872808652" ID="ID_1682295335" MODIFIED="1500872841560" TEXT="&#x5728;&#x51fd;&#x6570;&#x540d;&#x6216;&#x8005;&#x53d8;&#x91cf;&#x540d;&#x51b2;&#x7a81;&#x7684;&#x65f6;&#x5019;, &#x7ed9;&#x51fd;&#x6570;&#x6216;&#x53d8;&#x91cf;&#x540d;&#x52a0;&#x7edf;&#x4e00;&#x524d;&#x7f00;, &#x53ef;&#x884c;, &#x4f46;&#x662f;&#x9ebb;&#x70e6;"/>
 </node>
-<node CREATED="1499324133457" ID="ID_451573842" MODIFIED="1499326309185" TEXT="Packages as namespace separators">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324133457" ID="ID_451573842" MODIFIED="1500875047100" TEXT="Packages as namespace separators">
+<node CREATED="1500872920696" ID="ID_1821390262" MODIFIED="1500873050770" TEXT="package Navigation;&#xa;sub turn_toward_heading {&#xa;.. code here ..&#xa;}&#xa;sub turn_toward_port {&#xa;.. code here ..&#xa;} &#xa;&#xa;1;&#x9;# &#x5305;&#x58f0;&#x660e;&#xa;package &#x6307;&#x4ee4;&#x8ba9; Perl &#x5728;&#x6b64;&#x5305;&#x4e2d;&#x5c06;&#x5927;&#x591a;&#x6570;&#x7684;&#x51fd;&#x6570;&#x6216;&#x53d8;&#x91cf;&#x540d;&#x52a0;&#x4e0a; Navigation:: &#x524d;&#x7f00;"/>
+<node CREATED="1500873143507" ID="ID_1778520620" MODIFIED="1500873176739" TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x6a21;&#x5757;&#x9700;&#x8981;&#x4ee5;&#x5927;&#x5199;&#x5b57;&#x6bcd;&#x5f00;&#x5934;, &#x4ee5;&#x9632;&#x8ddf;&#x539f;&#x6709;&#x6807;&#x51c6;&#x5305;&#x540d;&#x51b2;&#x7a81;."/>
+<node CREATED="1500873241524" ID="ID_26725049" MODIFIED="1500874240087" TEXT="&#x5305;&#x540d;&#x53ef;&#x4ee5;&#x591a;&#x91cd;&#x547d;&#x540d;,&#x5982; Minnow::Food::Storage&#xa;// &#x5305;&#x5185;&#x58f0;&#x660e;&#xa;package Navigation;&#xa;@homeport = (21.283, &#x2212;157.842);&#xa;sub turn_toward_port {&#xa;.. code ..&#xa;}&#xa;// &#x5176;&#x5b83;&#x5730;&#x65b9;&#x5f15;&#x7528;&#xa;@destination = @Navigation::homeport;&#xa;"/>
 </node>
-<node CREATED="1499324150590" ID="ID_1696660693" MODIFIED="1499326309185" TEXT="Scope of a package directive">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324150590" ID="ID_1696660693" MODIFIED="1500875047100" TEXT="Scope of a package directive">
+<node CREATED="1500874242821" ID="ID_1644745872" MODIFIED="1500874248166" TEXT="package Navigation;&#xa;{ # start scope block&#xa;package main; # now in package main&#xa;sub turn_toward_heading { # main::turn_toward_heading&#xa;.. code here ..&#xa;}&#xa;} # end scope block&#xa;# back to package Navigation&#xa;sub turn_toward_port { # Navigation::turn_toward_port&#xa;.. code here ..&#xa;}"/>
 </node>
-<node CREATED="1499324164853" ID="ID_1280336376" MODIFIED="1499326309185" TEXT="Packages and Lexicals">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324164853" ID="ID_1280336376" MODIFIED="1500875047099" TEXT="Packages and Lexicals">
+<node CREATED="1500874355214" ID="ID_1480339616" MODIFIED="1500874504076" TEXT="&#x5305;&#x5185;&#x53d8;&#x91cf;&#x4e0d;&#x9700;&#x8981;&#x4f7f;&#x7528; my , &#x56e0;&#x4e3a;&#x4ed6;&#x4eec;&#x9ed8;&#x8ba4;&#x90fd;&#x662f;&#x5168;&#x5c40;&#x7684;&#xa;&#x5f15;&#x7528;&#x5305;&#x5185;&#x5168;&#x5c40;&#x53d8;&#x91cf;, &#x9700;&#x8981;&#x52a0;&#x4e0a;&#x5305;&#x540d;&#x524d;&#x7f00; ???"/>
 </node>
-<node CREATED="1499324175984" ID="ID_63325106" MODIFIED="1499326309184" TEXT="Package Blocks">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324175984" ID="ID_63325106" MODIFIED="1500875049827" TEXT="Package Blocks">
+<node CREATED="1500874722405" ID="ID_1891364856" MODIFIED="1500875029471" TEXT="package Navigation {&#xa;my @homeport = (21.283, &#x2212;157.842); # package version&#xa;sub get_me_home {&#xa;my @homeport;&#xa;.. @homeport .. # refers to the lexical variable&#xa;.. @Navigation::homeport .. # refers to the package variable&#xa;}&#xa;.. @homeport .. # refers to the package variable&#xa;}&#xa;&#x81ea; 5.12 &#x5f00;&#x59cb;, &#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x4e0a;&#x9762;&#x7684;&#x8bed;&#x6cd5;, &#x4e0a;&#x9762;&#x7684;&#x8bed;&#x6cd5;&#x4e0e;&#x797c;&#x5757;&#x7684;&#x8bed;&#x6cd5;&#x6ca1;&#x6709;&#x592a;&#x5927;&#x7684;&#x5dee;&#x522b;???&#xa;&#x4e0a;&#x9762;&#x7684;&#x8bed;&#x6cd5;&#x53ef;&#x4ee5;&#x5d4c;&#x5957;&#x5b9a;&#x4e49;&#x5305;, &#x4e5f;&#x53ef;&#x4ee5;&#x9650;&#x5236;&#x53d8;&#x91cf;&#x4f5c;&#x7528;&#x57df; ???"/>
 </node>
 <node CREATED="1499324184033" ID="ID_1290422817" MODIFIED="1499326309184" TEXT="Exercises">
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499324194852" ID="ID_1727528176" MODIFIED="1499326309184" POSITION="right" TEXT="12. Creating your own Perl distribution">
+<node CREATED="1499324194852" FOLDED="true" ID="ID_1727528176" MODIFIED="1499925621270" POSITION="right" TEXT="12. Creating your own Perl distribution">
 <icon BUILTIN="closed"/>
 <node CREATED="1499324211665" ID="ID_153018886" MODIFIED="1499326309184" TEXT="Perl&apos;s two build system">
 <icon BUILTIN="closed"/>
@@ -484,22 +490,26 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499324509562" ID="ID_824287962" MODIFIED="1499326309178" POSITION="right" TEXT="13. Introduction to objects">
+<node CREATED="1499324509562" FOLDED="true" ID="ID_824287962" MODIFIED="1500877027242" POSITION="right" TEXT="13. Introduction to objects">
 <icon BUILTIN="closed"/>
-<node CREATED="1499324523029" ID="ID_273786136" MODIFIED="1499326309178" TEXT="If we could talk to the animals">
-<icon BUILTIN="closed"/>
+<node CREATED="1500875393832" ID="ID_1408192597" MODIFIED="1500875393832" TEXT="">
+<node CREATED="1500875395166" ID="ID_1421363064" MODIFIED="1500875396048" TEXT="Damian Conway&#x2019;s Object Oriented Perl (Manning)"/>
 </node>
-<node CREATED="1499324539583" ID="ID_1708696319" MODIFIED="1499326309178" TEXT="Introducing the method invocatioin arrow">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324523029" ID="ID_273786136" MODIFIED="1500877025723" TEXT="If we could talk to the animals">
+<node CREATED="1500875761454" ID="ID_1329117268" MODIFIED="1500875781524" TEXT="use Cow;&#xa;use Horse;&#xa;use Sheep;&#xa;my @pasture = qw(Cow Cow Horse Sheep Sheep);&#xa;foreach my $beast (@pasture) {&#xa;no strict &apos;refs&apos;;&#xa;&amp;{$beast.&quot;::speak&quot;}; # Symbolic coderef&#x9;# &#x51fd;&#x6570;&#x540d;&#x7528;&#x53d8;&#x91cf;&#x66ff;&#x6362;&#x65b9;&#x6cd5;&#xa;}"/>
 </node>
-<node CREATED="1499324569492" ID="ID_57894632" MODIFIED="1499326309178" TEXT="The extra parameter of method invocation">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324539583" ID="ID_1708696319" MODIFIED="1500877025723" TEXT="Introducing the method invocatioin arrow">
+<node CREATED="1500875959118" ID="ID_62049651" MODIFIED="1500876057730" TEXT="my $beast = &apos;Cow&apos;;&#xa;$beast&#x2212;&gt;speak; # invokes Cow&#x2212;&gt;speak&#xa;&#x8fd9;&#x91cc;&#x4f7f;&#x7528;&#x7bad;&#x5934;, &#x53ef;&#x4ee5;&#x907f;&#x514d;&#x4e0a;&#x9762;&#x7684; no strict &apos;refs&apos; &#x7684;&#x4f7f;&#x7528;, &#x4f7f;&#x5f97;&#x8fd9;&#x91cc;&#x7684;&#x5f15;&#x7528;&#x662f;&#x5b89;&#x5168;&#x7684;"/>
 </node>
-<node CREATED="1499324592135" ID="ID_100067922" MODIFIED="1499326309177" TEXT="Calling a second method to simplify things">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324569492" ID="ID_57894632" MODIFIED="1500877025723" TEXT="The extra parameter of method invocation">
+<node CREATED="1500876294839" ID="ID_21510413" MODIFIED="1500876322904" TEXT="Class::method(&apos;Class&apos;, @args);&#x9;&#x9;# &#x7279;&#x6b8a;&#x7684;&#x7c7b;&#x8c03;&#x7528;&#x65b9;&#x6cd5; ??? &#x9700;&#x8981;&#x4e86;&#x89e3;&#x5177;&#x4f53;&#x7ec6;&#x8282;"/>
 </node>
-<node CREATED="1499324606100" ID="ID_1996579853" MODIFIED="1499326309177" TEXT="A few notes about @ISA">
-<icon BUILTIN="closed"/>
+<node CREATED="1499324592135" ID="ID_100067922" MODIFIED="1500877025723" TEXT="Calling a second method to simplify things">
+<node CREATED="1500876423783" ID="ID_21787607" MODIFIED="1500876559517" TEXT="# In lib/Cow.pm &#x5976;&#x725b;&#x5b9a;&#x4e49;, speak &#x4f1a;&#x8c03;&#x7528; sound&#xa;sub sound { &apos;moooo&apos; }&#xa;sub speak {&#xa;my $class = shift;&#xa;print &quot;a $class goes &quot;, $class&#x2212;&gt;sound, &quot;!\n&quot;;&#xa;}&#xa;&#xa;# In lib/Animal.pm  &#x52a8;&#x7269;&#x7edf;&#x4e00;&#x5927;&#x7c7b;&#x6839;&#x636e;&#x7c7b;&#x540d;&#x8fdb;&#x884c;&#x8c03;&#x7528;&#xa;sub speak {&#xa;my $class = shift;&#xa;print &quot;a $class goes &quot;, $class&#x2212;&gt;sound, &quot;!\n&quot;;&#xa;}&#xa;sub sound {&#xa;die &apos;You have to define sound() in a subclass&apos;&#xa;}&#xa;&#xa;# &#x4e3b;&#x51fd;&#x6570;&#x8c03;&#x7528;&#xa;use Animal;&#xa;our @ISA = qw(Animal);&#xa;sub sound { &quot;moooo&quot; }"/>
+</node>
+<node CREATED="1499324606100" ID="ID_1996579853" MODIFIED="1500877025723" TEXT="A few notes about @ISA">
+<node CREATED="1500876795038" ID="ID_575686977" MODIFIED="1500876807052" TEXT="@Cow::ISA = qw(Animal);&#xa;//&#xa;package Cow;&#xa;use vars qw(@ISA);&#xa;@ISA = qw(Animal);&#xa;//&#xa;package Cow;&#xa;our @ISA = qw(Animal);"/>
+<node CREATED="1500876853495" ID="ID_1550078597" MODIFIED="1500876857984" TEXT="package Cow;&#xa;use Animal;&#xa;our @ISA = qw(Animal);&#xa;//&#xa;use v5.10.1;&#xa;package Cow;&#xa;use parent qw(Animal);"/>
 </node>
 <node CREATED="1499324617199" ID="ID_1868452475" MODIFIED="1499326309177" TEXT="Overriding the methodds">
 <icon BUILTIN="closed"/>
@@ -577,7 +587,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325196817" ID="ID_1393722929" MODIFIED="1499326309172" POSITION="right" TEXT="15. Objects with data">
+<node CREATED="1499325196817" FOLDED="true" ID="ID_1393722929" MODIFIED="1499925637986" POSITION="right" TEXT="15. Objects with data">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325205660" ID="ID_228200320" MODIFIED="1499326309172" TEXT="A horse is a horse, of course of course -- or it is?">
 <icon BUILTIN="closed"/>
@@ -649,7 +659,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325537672" ID="ID_399494135" MODIFIED="1499326309167" POSITION="right" TEXT="17. Exporter">
+<node CREATED="1499325537672" FOLDED="true" ID="ID_399494135" MODIFIED="1499925655451" POSITION="right" TEXT="17. Exporter">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325551179" ID="ID_517731417" MODIFIED="1499326309166" TEXT="What use is Doing">
 <icon BUILTIN="closed"/>
@@ -670,7 +680,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325618118" ID="ID_821976629" MODIFIED="1499326309165" POSITION="right" TEXT="18. Object Destruction">
+<node CREATED="1499325618118" FOLDED="true" ID="ID_821976629" MODIFIED="1499925661775" POSITION="right" TEXT="18. Object Destruction">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325628670" ID="ID_989655154" MODIFIED="1499326309165" TEXT="Cleaning up after ourselves">
 <icon BUILTIN="closed"/>
@@ -697,7 +707,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325751716" ID="ID_251960756" MODIFIED="1499326309163" POSITION="right" TEXT="19. Introduction to moose">
+<node CREATED="1499325751716" FOLDED="true" ID="ID_251960756" MODIFIED="1499925677868" POSITION="right" TEXT="19. Introduction to moose">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325762993" ID="ID_314355427" MODIFIED="1499326309163" TEXT="Making animals with moose">
 <icon BUILTIN="closed"/>
@@ -727,7 +737,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325895250" ID="ID_547194867" MODIFIED="1499326309161" POSITION="right" TEXT="20. Advanced tesgin">
+<node CREATED="1499325895250" FOLDED="true" ID="ID_547194867" MODIFIED="1499925689059" POSITION="right" TEXT="20. Advanced tesging">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325902254" ID="ID_559865871" MODIFIED="1499326309161" TEXT="Skipping tests">
 <icon BUILTIN="closed"/>
@@ -757,7 +767,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325993702" ID="ID_1711838663" MODIFIED="1499326309159" POSITION="right" TEXT="21. Contributing to CPAN">
+<node CREATED="1499325993702" FOLDED="true" ID="ID_1711838663" MODIFIED="1499925692050" POSITION="right" TEXT="21. Contributing to CPAN">
 <icon BUILTIN="closed"/>
 <node CREATED="1499326010809" ID="ID_1035331074" MODIFIED="1499326309159" TEXT="The comprehensive Perl archive network">
 <icon BUILTIN="closed"/>
