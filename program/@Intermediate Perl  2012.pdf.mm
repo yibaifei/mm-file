@@ -4,7 +4,7 @@
 <icon BUILTIN="closed"/>
 <node CREATED="1499322268281" ID="ID_744078452" MODIFIED="1499330973170" POSITION="right" TEXT="Foreword"/>
 <node CREATED="1499322280732" ID="ID_61300269" MODIFIED="1499330973170" POSITION="right" TEXT="Preface"/>
-<node CREATED="1499322328453" FOLDED="true" ID="ID_1579222545" MODIFIED="1500877925374" POSITION="right" TEXT="1. Introductioin">
+<node CREATED="1499322328453" FOLDED="true" ID="ID_1579222545" MODIFIED="1504769042723" POSITION="right" TEXT="1. Introductioin">
 <node CREATED="1499322343386" ID="ID_1995900330" MODIFIED="1499330968660" TEXT="What show you know Already?"/>
 <node CREATED="1499322355489" ID="ID_627716181" MODIFIED="1499330968660" TEXT="strict and warngins"/>
 <node CREATED="1499322365905" ID="ID_905332166" MODIFIED="1499330968660" TEXT="Perl v5.14">
@@ -20,7 +20,7 @@
 <node CREATED="1499322420955" ID="ID_725744168" MODIFIED="1499330968660" TEXT="What if I&apos;m a Perl course instructor ?"/>
 <node CREATED="1499322436810" ID="ID_1919295620" MODIFIED="1499330968660" TEXT="Exercises"/>
 </node>
-<node CREATED="1499322455127" FOLDED="true" ID="ID_447159994" MODIFIED="1500877928706" POSITION="right" TEXT="2. Using Modeules">
+<node CREATED="1499322455127" FOLDED="true" ID="ID_447159994" MODIFIED="1513921345152" POSITION="right" TEXT="2. Using Modeules">
 <node CREATED="1499331178358" ID="ID_1702128368" MODIFIED="1499331179709" TEXT="We can explore CPAN through its master site (http://www.cpan.org/) or one of its search interfaces, CPAN Search (http://search.cpan.org/) and MetaCPAN (https://www.metacpan.org/)."/>
 <node CREATED="1499322463425" ID="ID_408808071" MODIFIED="1499332747315" TEXT="The standard distribution">
 <node CREATED="1499331510157" ID="ID_471413004" MODIFIED="1499331735382" TEXT="Module::CoreList &#x67e5;&#x770b;&#x5f53;&#x524d; Perl &#x7248;&#x672c;&#x4e2d;&#x6240;&#x5305;&#x542b;&#x7684;&#x6a21;&#x5757;"/>
@@ -82,7 +82,7 @@
 </node>
 <node CREATED="1499322711271" ID="ID_134275108" MODIFIED="1499346018315" TEXT="Exercises"/>
 </node>
-<node CREATED="1499322716676" FOLDED="true" ID="ID_49235323" MODIFIED="1500877930454" POSITION="right" TEXT="3. Intermediate Foundations">
+<node CREATED="1499322716676" ID="ID_49235323" MODIFIED="1506345718990" POSITION="right" TEXT="3. Intermediate Foundations">
 <node CREATED="1499322731397" ID="ID_1443112126" MODIFIED="1500180690070" TEXT="List operators">
 <node CREATED="1499405370983" ID="ID_987164243" MODIFIED="1499405940942" TEXT="print &apos;Two castaways are &apos;, &apos;Gilligan&apos;, &apos; and &apos;, &apos;Skipper&apos;, &quot;\n&quot;;&#xa;my @castaways = sort qw(Gilligan Skipper Ginger Professor Mary Ann);&#xa;my @castaways = reverse qw(Gilligan Skipper Ginger Professor Mary Ann);&#xa;@castaways = reverse @castaways;"/>
 <node CREATED="1499322738960" ID="ID_1096100171" MODIFIED="1499410875302" TEXT="List Filtering with grep">
@@ -116,7 +116,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499322804184" FOLDED="true" ID="ID_1421721242" MODIFIED="1500877932831" POSITION="right" TEXT="4. Introductioin to References">
+<node CREATED="1499322804184" ID="ID_1421721242" MODIFIED="1506345726730" POSITION="right" TEXT="4. Introductioin to References">
 <node CREATED="1499322814579" ID="ID_973367844" MODIFIED="1499675592274" TEXT="Doing the same task on many arrays">
 <node CREATED="1499651715720" ID="ID_1783932617" MODIFIED="1499651726306" TEXT="my %whos_items = map { $_, 1 } @_;  # hash &#x521d;&#x59cb;&#x5316;"/>
 </node>
@@ -160,7 +160,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499322970130" FOLDED="true" ID="ID_916847636" MODIFIED="1500877935776" POSITION="right" TEXT="5. References and scoping">
+<node CREATED="1499322970130" ID="ID_916847636" MODIFIED="1506345710074" POSITION="right" TEXT="5. References and scoping">
 <node CREATED="1499322984285" ID="ID_457026105" MODIFIED="1500182153591" TEXT="More than one reference to data">
 <node CREATED="1499675788377" ID="ID_1707297989" MODIFIED="1499676063232" TEXT="&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x53ef;&#x80fd;&#x4f1a;&#x6709;&#x591a;&#x4e2a;&#x5730;&#x65b9;&#x5f15;&#x7528;, &#x6bcf;&#x4e2a;&#x5f15;&#x7528;&#x90fd;&#x4f1a;&#x5728;&#x4ed6;&#x7684;&#x5f15;&#x7528;&#x6570;&#x503c;&#x6b62;&#x52a0;1, &#x5f53;&#x5f15;&#x7528;&#x8fdb;&#x884c;&#x8d4b;&#x503c;&#x65f6;&#x4e5f;&#x4f1a;&#x6709;&#x8fd9;&#x60c5;&#x51b5;&#xa;&#x5728;&#x5b50;&#x8fdb;&#x7a0b;&#x4f20;&#x9012;&#x53c2;&#x6570;&#x7684;&#x8fc7;&#x7a0b;&#x4e2d;, &#x4e5f;&#x4f1a;&#x4ea7;&#x751f;&#x533f;&#x540d;&#x5f15;&#x7528;, &#x5728;&#x5b50;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;&#x65f6;&#x4f1a;&#x91ca;&#x653e;, &#x5f53;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x7684;&#x5f15;&#x7528;&#x6570;&#x4e3a; 0 &#x65f6;, &#x5c31;&#x4f1a;&#x91ca;&#x653e;&#x6389;&#x8fd9;&#x4e2a;&#x6570;&#x636e;&#xa;&#x5220;&#x9664;&#x4e00;&#x4e2a;&#x5f15;&#x7528;&#x7684;&#x65b9;&#x6cd5;&#xa;$ref = undef&#xa;&#x6216;&#x8005;&#x8ba9;&#x4ed6;&#x5728;&#x4e00;&#x4e2a;&#x88f8;&#x5757;&#x4e2d;&#x521d;&#x59cb;&#x5316;, &#x5728;&#x9000;&#x51fa;&#x88f8; &#x5757;&#x65f6;, &#x4e5f;&#x4f1a;&#x91ca;&#x653e;&#x6389;"/>
 </node>
@@ -424,7 +424,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499324194852" FOLDED="true" ID="ID_1727528176" MODIFIED="1499925621270" POSITION="right" TEXT="12. Creating your own Perl distribution">
+<node CREATED="1499324194852" FOLDED="true" ID="ID_1727528176" MODIFIED="1504769081600" POSITION="right" TEXT="12. Creating your own Perl distribution">
 <icon BUILTIN="closed"/>
 <node CREATED="1499324211665" ID="ID_153018886" MODIFIED="1499326309184" TEXT="Perl&apos;s two build system">
 <icon BUILTIN="closed"/>
@@ -490,7 +490,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499324509562" FOLDED="true" ID="ID_824287962" MODIFIED="1500877027242" POSITION="right" TEXT="13. Introduction to objects">
+<node CREATED="1499324509562" FOLDED="true" ID="ID_824287962" MODIFIED="1504769109901" POSITION="right" TEXT="13. Introduction to objects">
 <icon BUILTIN="closed"/>
 <node CREATED="1500875393832" ID="ID_1408192597" MODIFIED="1500875393832" TEXT="">
 <node CREATED="1500875395166" ID="ID_1421363064" MODIFIED="1500875396048" TEXT="Damian Conway&#x2019;s Object Oriented Perl (Manning)"/>
@@ -659,7 +659,7 @@
 <icon BUILTIN="closed"/>
 </node>
 </node>
-<node CREATED="1499325537672" FOLDED="true" ID="ID_399494135" MODIFIED="1499925655451" POSITION="right" TEXT="17. Exporter">
+<node CREATED="1499325537672" ID="ID_399494135" MODIFIED="1504769112398" POSITION="right" TEXT="17. Exporter">
 <icon BUILTIN="closed"/>
 <node CREATED="1499325551179" ID="ID_517731417" MODIFIED="1499326309166" TEXT="What use is Doing">
 <icon BUILTIN="closed"/>
